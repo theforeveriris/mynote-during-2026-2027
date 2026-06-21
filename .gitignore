@@ -1,0 +1,10 @@
+# 预构建的文件树（保留用于部署）
+# data/
+
+# Node modules
+node_modules/
+
+# OS files
+参考/
+.DS_Store
+Thumbs.db

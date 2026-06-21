@@ -1,0 +1,87 @@
+[
+  {
+    "path": "advanced/configuration.md",
+    "title": "高级配置",
+    "preview": "高级配置 学习如何配置你的 Markdown 预览器。 基本配置 在 app.js 中配置仓库信息： 自动发现说明 本工具通过 GitHub API 自动发现仓库中的所有 .md 文件，无需手动配置文件列表！ 如何添加新文档 1. 在仓库的任意位置创建新的 .md 文件 2. 提交并推送到 GitHub 3. 刷新页面，新文档会自动出现在侧边栏 自动排序 文件树会自动排序： - 文件夹排在前面 -"
+  },
+  {
+    "path": "advanced/deployment.md",
+    "title": "部署指南",
+    "preview": "部署指南 将你的 Markdown 预览器部署到 GitHub Pages。 前置条件 确保你已经正确配置了 app.js 中的仓库信息： 方法一：GitHub Pages（推荐） 步骤 1. 登录 GitHub 2. 进入仓库 Settings 3. 找到 Pages 部分 4. 在 Source 下，选择 main 分支和 / (root) 5. 点击 Save 6. 等待 1-2 分钟部署完"
+  },
+  {
+    "path": "api/configuration.md",
+    "title": "API 参考文档",
+    "preview": "API 参考文档 配置对象 (CONFIG) 主配置文件，包含仓库信息。 属性 owner (String) GitHub 用户名或组织名。 repo (String) 仓库名称。 示例配置 自动发现原理 本工具通过 GitHub API 获取仓库的 Git 树结构： 1. 请求：GET /repos/{owner}/{repo}/git/trees/main?recursive=1 2. 解析返"
+  },
+  {
+    "path": "api/events.md",
+    "title": "事件系统",
+    "preview": "事件系统 页面加载事件 DOMContentLoaded 当 DOM 完全加载后触发。 文件操作事件 文件点击事件 点击文件时自动触发文件加载。 实现方式：在 renderFileTree 函数中绑定 侧边栏事件（移动端） 切换侧边栏 关闭侧边栏 滚动事件 阅读进度跟踪 文件加载进度 在 loadMarkdownFile 函数中实现： 代码块交互 点击复制 自定义事件 你可以通过以下方式添加自定义"
+  },
+  {
+    "path": "examples/apexcharts-examples.md",
+    "title": "ApexCharts 交互式图表示例",
+    "preview": "ApexCharts 交互式图表示例 本页面展示 ApexCharts 的各种图表类型和配置方式。 --- 1. 折线图 基础折线图 源码： 渲染效果： --- 多系列折线图 源码： 渲染效果： --- 2. 面积图 基础面积图 源码： 渲染效果： --- 多系列面积图 源码： 渲染效果： --- 3. 柱状图 基础柱状图 源码： 渲染效果： --- 分组柱状图 源码： 渲染效果： --- 4. "
+  },
+  {
+    "path": "examples/basic-usage.md",
+    "title": "基础使用教程",
+    "preview": "基础使用教程 学习如何使用 Markdown 预览器的基本功能。 界面概览 侧边栏 - 自动发现并显示所有 .md 文件的树形结构 - 点击文件夹可以展开/折叠 - 点击文件名加载文档 主内容区 - 显示 Markdown 渲染后的内容 - 支持代码高亮 - 支持图片预览 进度指示器 - 顶部：文件加载进度条 - 底部：阅读位置进度条 基本操作 浏览文档 1. 点击侧边栏中的文件名 2. 文档内容"
+  },
+  {
+    "path": "examples/diff-examples.md",
+    "title": "Git Diff 可视化示例",
+    "preview": "Git Diff 可视化示例 本页面展示如何使用 diff2html 可视化展示 Git Diff 内容。 --- 1. 基本用法 简单的文件修改 源码格式： 渲染效果： --- 2. 多文件修改 渲染效果： --- 3. 不同类型的变更 新增文件 删除文件 重命名文件 --- 4. 复杂示例 完整的功能变更 --- 5. 使用说明 语法规则 1. 使用 diff diff --git a/旧文件"
+  },
+  {
+    "path": "examples/embed-examples.md",
+    "title": "外部服务嵌入示例",
+    "preview": "外部服务嵌入示例 本页面展示各种外部服务的嵌入方式和渲染效果。 --- 1. 视频平台 YouTube 源码： 渲染效果： @youtube --- Bilibili 源码： 渲染效果： @bilibili --- Vimeo 源码： 渲染效果： @vimeo --- 2. 设计稿 Figma 源码： 渲染效果： @figma --- 3. 代码演示 CodePen 源码： 渲染效果： @code"
+  },
+  {
+    "path": "examples/geojson-examples.md",
+    "title": "GeoJSON / TopoJSON 示例",
+    "preview": "GeoJSON / TopoJSON 示例 本页面展示地理数据可视化功能，支持 GeoJSON 和 TopoJSON 格式的嵌入渲染。 --- 1. GeoJSON 点数据 单个点 源码： 渲染效果： @geojson --- 多个城市点 源码： 渲染效果： @geojson --- 2. GeoJSON 线数据 简单线段 源码： 渲染效果： @geojson --- 多段线路 源码： 渲染效果："
+  },
+  {
+    "path": "examples/markdown-syntax.md",
+    "title": "Markdown 语法参考",
+    "preview": "Markdown 语法参考 本页面展示所有常用 Markdown 语法及其渲染效果。 --- 标题 使用 # 符号创建标题，# 的数量表示标题级别。 渲染效果： 一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 --- 强调 使用 或 表示斜体， 或 表示粗体。 渲染效果： 斜体文本 也是斜体 粗体文本 也是粗体 粗斜体文本 也是粗斜体 删除线文本 --- 列表 无序列表 使用 -、 或"
+  },
+  {
+    "path": "examples/mermaid-examples.md",
+    "title": "Mermaid 图表示例",
+    "preview": "Mermaid 图表示例 本文档展示了 Mermaid 支持的各类图表及其渲染效果。 --- 1. 流程图 (Flowchart) 垂直流程图 (Top to Bottom) 渲染效果： 水平流程图 (Left to Right) 渲染效果： 复杂流程图 (包含子图) 渲染效果： --- 2. 时序图 (Sequence Diagram) 基础时序图 渲染效果： 循环与条件 渲染效果： --- 3"
+  },
+  {
+    "path": "examples/music-notation-examples.md",
+    "title": "乐谱渲染示例",
+    "preview": "乐谱渲染示例 本页面展示如何使用 Markdown 预览器嵌入乐谱，支持 ABC 记谱法和 MusicXML 格式。 --- 1. ABC 记谱法 ABC 记谱法是一种简洁的文本音乐记谱格式，使用 abcjs 库进行渲染。 简单旋律 - 小星星 源码： 渲染效果： --- 复杂和声 源码： 渲染效果： --- 多声部音乐 源码： 渲染效果： --- 2. MusicXML 格式 MusicXML "
+  },
+  {
+    "path": "examples/native-html-examples.md",
+    "title": "浏览器原生 HTML 元素与 Web API 示例",
+    "preview": "浏览器原生 HTML 元素与 Web API 示例 本页面展示丰富的浏览器原生功能，零 JS、零后端即可使用！ --- 一、语义与排版 1.1 原生模态对话框 <dialog id=\"dialogDemo\"> <h3>欢迎！</h3> <p>这是一个纯 HTML 原生模态对话框。</p> <button onclick=\"document.getElementById('dialogDemo')."
+  },
+  {
+    "path": "examples/plantuml-examples.md",
+    "title": "PlantUML 图表示例",
+    "preview": "PlantUML 图表示例 本文档展示了 PlantUML 支持的各类图表及其渲染效果。 --- 1. 类图 (Class Diagram) 基础类图 渲染效果： --- 2. 顺序图 (Sequence Diagram) 基础顺序图 渲染效果： 带循环的顺序图 渲染效果： --- 3. 用例图 (Use Case Diagram) 电商系统用例图 渲染效果： --- 4. 活动图 (Activi"
+  },
+  {
+    "path": "examples/twitter-embed-examples.md",
+    "title": "Twitter/X 嵌入示例",
+    "preview": "Twitter/X 嵌入示例 本页面展示如何使用 Markdown 预览器嵌入 Twitter/X 推文和时间线。 --- 1. 基本用法 嵌入单条推文 语法格式： 示例： 渲染效果： @twitter --- 使用 X 替代 Twitter 语法格式： 示例： --- 2. 用户时间线嵌入 嵌入用户时间线 语法格式： 示例： 说明： - 显示该用户最近的推文 - 自动刷新显示最新内容 - 高度可"
+  },
+  {
+    "path": "getting-started.md",
+    "title": "快速入门",
+    "preview": "快速入门 欢迎使用 Markdown 预览器！本指南将帮助你快速上手。 安装 无需安装！只需将文件部署到 GitHub Pages 即可。 基本使用 1. 打开网页 2. 点击侧边栏中的文件 3. 开始阅读 添加新文档 直接在你的仓库中添加新的 .md 文件，系统会自动发现并显示在侧边栏！ 下一步 - 学习 Markdown 语法 - 了解 部署选项"
+  },
+  {
+    "path": "guide.md",
+    "title": "文档目录",
+    "preview": "文档目录 欢迎使用 Markdown 预览器！ 开始使用 请查看 快速入门 了解基本使用方法。 功能特性 - 自动发现所有 .md 文件 - 自动构建目录树 - 极简设计风格 - 移动端完美适配"
+  }
+]
