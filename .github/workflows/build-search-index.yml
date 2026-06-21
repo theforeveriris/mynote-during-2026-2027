@@ -3,7 +3,7 @@ name: Build Search Index
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - 'docs/**'
 
