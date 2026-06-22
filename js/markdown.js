@@ -166,21 +166,63 @@
 
     return { processed, latexBlocks };
   }
-
-  function processImages(container) {
+  
+  function resolveImageSrc(src, currentPath) {
+    if (!src) return src;
+    
+    // 已经是绝对 URL 或 data URL，不需要处理
+    if (src.startsWith('http://') || src.startsWith('https://') || 
+        src.startsWith('data:') || src.startsWith('//')) {
+      return src;
+    }
+    
+    // 没有当前路径，无法解析相对路径
+    if (!currentPath) return src;
+    
+    // 获取当前文档所在目录
+    const currentDir = currentPath.split('/').slice(0, -1).join('/');
+    
+    // 解析相对路径
+    let resolvedPath;
+    if (src.startsWith('/')) {
+      // 绝对路径（相对于仓库根目录）
+      resolvedPath = src.substring(1);
+    } else {
+      // 相对路径
+      const parts = (currentDir ? currentDir + '/' : '') + src;
+      resolvedPath = simplifyPath(parts);
+    }
+    
+    return resolvedPath;
+  }
+  
+  function processImages(container, currentPath = '') {
     const images = container.querySelectorAll('img');
-
+    
     images.forEach(img => {
       img.setAttribute('loading', 'lazy');
-
+      
+      const originalSrc = img.getAttribute('src') || '';
+      
+      // 解析相对路径为相对于仓库根目录的路径
+      if (currentPath && originalSrc && 
+          !originalSrc.startsWith('http://') && 
+          !originalSrc.startsWith('https://') && 
+          !originalSrc.startsWith('data:') &&
+          !originalSrc.startsWith('//')) {
+        const resolvedSrc = resolveImageSrc(originalSrc, currentPath);
+        img.setAttribute('src', resolvedSrc);
+        img.setAttribute('data-original-src', originalSrc);
+      }
+      
       const src = img.getAttribute('src') || '';
       const filename = src.split('/').pop() || 'image';
       const alt = img.getAttribute('alt') || filename;
-
+      
       img.onerror = function() {
         this.onerror = null;
         this.style.display = 'none';
-
+        
         const placeholder = document.createElement('div');
         placeholder.className = 'image-placeholder';
         placeholder.innerHTML = `
@@ -188,18 +230,16 @@
           <div class="placeholder-text">${alt}</div>
           <div class="placeholder-filename">${filename}</div>
         `;
-
+        
         this.parentNode.insertBefore(placeholder, this);
       };
     });
-
-    const galleryImages = container.querySelectorAll('img');
-    if (galleryImages.length < 2) return;
-
+    
+    if (images.length < 2) return;
+    
     const tempDiv = document.createElement('div');
     tempDiv.innerHTML = container.innerHTML;
-
-    const paragraphs = Array.from(tempDiv.querySelectorAll('p'));
+    
     const allElements = Array.from(tempDiv.childNodes);
     const galleryGroups = [];
     let currentGroup = [];
@@ -311,9 +351,9 @@
     });
 
     interceptLinks(currentPath);
-
-    processImages(dom.markdownContent);
-
+    
+    processImages(dom.markdownContent, currentPath);
+    
     setTimeout(async () => {
       console.log('[Markdown] Starting render cycle');
       await renderWithPlugins();
@@ -357,6 +397,8 @@
       });
     });
   }
+
+// 插件渲染
 
   async function renderWithPlugins() {
     console.log('[Plugins] renderWithPlugins called');
@@ -601,6 +643,7 @@
     });
   }
 
+// 导出MarkdownPreview对象
   window.MarkdownPreview.markdown = {
     loadMarkdownFile,
     renderMarkdown,
