@@ -8,3 +8,6 @@ node_modules/
 参考/
 .DS_Store
 Thumbs.db
+
+#reading
+.obsidian/
