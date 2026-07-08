@@ -11,5 +11,6 @@
 [《深入理解计算机网络》之链路层总结](https://zhuanlan.zhihu.com/p/469082755)
 [这一次，彻底拿下计算机网络链路层！](https://www.cnblogs.com/cxuanBlog/p/14600398.html)
 
+[计算机网络中网络层的作用 ](https://boilingfrog.github.io/2022/07/26/%%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%BD%91%E7%BB%9C%E5%B1%82/)
 
 
