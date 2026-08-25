@@ -14,3 +14,10 @@
 [计算机网络中网络层的作用 ](https://boilingfrog.github.io/2022/07/26/%%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%BD%91%E7%BB%9C%E5%B1%82/)
 
 [《深入理解计算机网络》之传输层总结](https://zhuanlan.zhihu.com/p/473081336)
+
+
+### 算法与数据结构
+[线性表详解：一文彻底搞清楚线性表（长篇神文，小白必看）](https://zhuanlan.zhihu.com/p/679839376)
+
+
+
