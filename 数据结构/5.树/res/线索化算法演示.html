@@ -1,0 +1,1133 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二叉树线索化算法可视化</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', 'PingFang SC', Roboto, 'Helvetica Neue', sans-serif;
+            background: #f0f4f8;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1100px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+            padding: 24px 30px 30px;
+            transition: all 0.2s;
+        }
+        h1 {
+            font-size: 26px;
+            font-weight: 700;
+            color: #1a2332;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 6px;
+        }
+        h1 small {
+            font-weight: 400;
+            font-size: 16px;
+            color: #6b7a8f;
+            margin-left: 6px;
+        }
+        .subtitle {
+            color: #6b7a8f;
+            font-size: 14px;
+            margin-bottom: 18px;
+            border-left: 4px solid #4a90d9;
+            padding-left: 14px;
+            background: #f7f9fc;
+            border-radius: 0 8px 8px 0;
+            line-height: 1.6;
+        }
+        .main-area {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .canvas-wrapper {
+            flex: 1 1 680px;
+            background: #fafcff;
+            border-radius: 14px;
+            border: 1px solid #e6edf4;
+            padding: 6px;
+            position: relative;
+            min-height: 400px;
+        }
+        canvas {
+            display: block;
+            width: 100%;
+            height: auto;
+            background: #ffffff;
+            border-radius: 10px;
+            cursor: default;
+            touch-action: none;
+        }
+        .panel {
+            flex: 0 0 280px;
+            min-width: 220px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .info-box {
+            background: #f7faff;
+            border-radius: 12px;
+            border: 1px solid #e0e9f2;
+            padding: 14px 16px;
+            flex: 1;
+        }
+        .info-box h3 {
+            font-size: 13px;
+            color: #3d5567;
+            margin-bottom: 8px;
+            letter-spacing: 0.3px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            border-bottom: 1px dashed #d5dfe9;
+            padding-bottom: 6px;
+        }
+        .info-box .step-desc {
+            font-size: 15px;
+            font-weight: 500;
+            color: #1a2b3c;
+            line-height: 1.5;
+            min-height: 50px;
+            padding: 4px 0;
+        }
+        .info-box .step-desc .highlight {
+            color: #c44536;
+            font-weight: 700;
+        }
+        .info-box .step-desc .pre-highlight {
+            color: #2a6d9c;
+            font-weight: 700;
+        }
+        .status-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4px 12px;
+            font-size: 13px;
+            color: #2c3e50;
+            margin-top: 4px;
+        }
+        .status-grid .label {
+            color: #6b7f94;
+        }
+        .status-grid .value {
+            font-weight: 600;
+            font-family: 'Courier New', monospace;
+        }
+        .tag-table {
+            margin-top: 8px;
+            font-size: 13px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .tag-table td,
+        .tag-table th {
+            padding: 3px 6px;
+            border: 1px solid #dce5ef;
+            text-align: center;
+        }
+        .tag-table th {
+            background: #eaf0f7;
+            font-weight: 600;
+            color: #2a4055;
+            font-size: 12px;
+        }
+        .tag-table .tag-1 {
+            background: #fff0e6;
+            color: #b34a2c;
+            font-weight: 700;
+        }
+        .tag-table .tag-0 {
+            color: #3a5a7a;
+        }
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 6px;
+            align-items: center;
+        }
+        .controls .btn-group {
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 7px 18px;
+            border: none;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 600;
+            background: #e8eef6;
+            color: #2a4055;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            user-select: none;
+        }
+        .btn:hover {
+            background: #d5e0ec;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+        }
+        .btn:active {
+            transform: translateY(0px);
+        }
+        .btn.primary {
+            background: #2a6d9c;
+            color: white;
+        }
+        .btn.primary:hover {
+            background: #1d5a83;
+        }
+        .btn.primary.active {
+            background: #1a4d6e;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .btn.success {
+            background: #2d8f5c;
+            color: white;
+        }
+        .btn.success:hover {
+            background: #217a4b;
+        }
+        .btn.danger {
+            background: #c44536;
+            color: white;
+        }
+        .btn.danger:hover {
+            background: #a8372a;
+        }
+        .btn.outline {
+            background: transparent;
+            border: 2px solid #b8c9db;
+            color: #2a4055;
+        }
+        .btn.outline:hover {
+            border-color: #7f99b3;
+            background: #f0f5fc;
+        }
+        .btn:disabled {
+            opacity: 0.45;
+            cursor: not-allowed;
+            transform: none !important;
+            box-shadow: none !important;
+        }
+        .btn-sm {
+            padding: 5px 14px;
+            font-size: 13px;
+        }
+        .step-counter {
+            font-size: 14px;
+            color: #3d5a73;
+            font-weight: 500;
+            margin-left: 4px;
+            background: #eef4fa;
+            padding: 2px 14px;
+            border-radius: 30px;
+        }
+        .algo-tabs {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+        .algo-tabs .btn {
+            flex: 1;
+            justify-content: center;
+            min-width: 80px;
+            background: #eef3f9;
+            border-radius: 30px;
+            padding: 8px 12px;
+            font-size: 14px;
+        }
+        .algo-tabs .btn.active-algo {
+            background: #1a2b3c;
+            color: white;
+            box-shadow: 0 4px 12px rgba(26, 43, 60, 0.25);
+        }
+        .algo-tabs .btn.active-algo:hover {
+            background: #0f1d2b;
+        }
+        .legend {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            font-size: 12px;
+            color: #3d5567;
+            margin-top: 4px;
+            padding: 6px 0 2px;
+            border-top: 1px solid #e6edf4;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .legend-item .dot {
+            display: inline-block;
+            width: 16px;
+            height: 3px;
+            border-radius: 4px;
+        }
+        .legend-item .dot.dashed {
+            height: 0;
+            border-top: 3px dashed #c44536;
+            width: 20px;
+        }
+        .legend-item .dot.solid {
+            background: #3d5a73;
+        }
+        .legend-item .dot.gold {
+            background: #f5b342;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+        }
+        .legend-item .dot.purple {
+            background: #7c51b3;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            border: 2px solid #7c51b3;
+        }
+        @media (max-width: 820px) {
+            .panel {
+                flex: 1 1 100%;
+            }
+            .container {
+                padding: 16px;
+            }
+            .algo-tabs .btn {
+                min-width: 60px;
+                font-size: 13px;
+                padding: 6px 10px;
+            }
+            .controls .btn {
+                font-size: 13px;
+                padding: 5px 12px;
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+                flex-wrap: wrap;
+            }
+            .controls {
+                gap: 4px;
+            }
+            .btn {
+                font-size: 12px;
+                padding: 4px 10px;
+            }
+            .info-box .step-desc {
+                font-size: 14px;
+                min-height: 40px;
+            }
+        }
+
+        /* 拼图模态框 - 紧凑网格 */
+        #puzzleModal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1000;
+            overflow: auto;
+            padding: 20px;
+        }
+        #puzzleModal .modal-content {
+            background: #fff;
+            max-width: 1000px;
+            margin: 20px auto;
+            border-radius: 16px;
+            padding: 18px 20px 20px;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        #puzzleModal .close-btn {
+            position: absolute;
+            right: 18px;
+            top: 14px;
+            background: transparent;
+            border: none;
+            font-size: 30px;
+            line-height: 1;
+            cursor: pointer;
+            color: #6b7a8f;
+            transition: 0.2s;
+        }
+        #puzzleModal .close-btn:hover {
+            color: #1a2332;
+            transform: rotate(90deg);
+        }
+        #puzzleModal h2 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            font-weight: 600;
+            color: #1a2332;
+            font-size: 22px;
+            border-bottom: 2px solid #e6edf4;
+            padding-bottom: 8px;
+        }
+        #puzzleGrid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;          /* 更小的间距 */
+            justify-content: flex-start;
+            max-height: 75vh;
+            overflow-y: auto;
+            padding: 4px 2px;
+        }
+        .puzzle-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #fafcff;
+            border-radius: 6px;
+            padding: 4px;        /* 内边距减小 */
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e6edf4;
+            transition: 0.1s;
+            flex-shrink: 0;
+        }
+        .puzzle-item img {
+            width: 160px;        /* 稍微缩小，更密集 */
+            height: auto;
+            border-radius: 4px;
+            background: #ffffff;
+            display: block;
+        }
+        /* 去掉文字标签 */
+        @media (max-width: 600px) {
+            .puzzle-item img {
+                width: 120px;
+            }
+            #puzzleModal .modal-content {
+                padding: 12px;
+                margin: 10px auto;
+            }
+            #puzzleGrid {
+                gap: 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>
+            二叉树线索化 · 可视化
+            <small>中序 · 先序 · 后序</small>
+        </h1>
+        <div class="subtitle">
+            逐步演示线索建立过程 · 绿色高亮 = 当前结点 &nbsp;·&nbsp; 紫色边框 = pre 指针
+            &nbsp;·&nbsp; <span style="color:#c44536;">红色虚线</span> = 线索
+        </div>
+
+        <!-- 算法切换 -->
+        <div class="algo-tabs" id="algoTabs">
+            <button class="btn active-algo" data-algo="in">中序线索化</button>
+            <button class="btn" data-algo="pre">先序线索化</button>
+            <button class="btn" data-algo="post">后序线索化</button>
+        </div>
+
+        <div class="main-area">
+            <!-- 画布 -->
+            <div class="canvas-wrapper">
+                <canvas id="treeCanvas" width="820" height="420"></canvas>
+                <div class="legend">
+                    <span class="legend-item"><span class="dot solid"></span> 普通指针</span>
+                    <span class="legend-item"><span class="dot dashed"></span> 线索 (虚线)</span>
+                    <span class="legend-item"><span class="dot gold"></span> 当前结点 p</span>
+                    <span class="legend-item"><span class="dot purple"></span> pre 指向</span>
+                </div>
+            </div>
+
+            <!-- 右侧面板 -->
+            <div class="panel">
+                <div class="info-box">
+                    <h3>当前步骤</h3>
+                    <div class="step-desc" id="stepDesc">点击「下一步」开始演示</div>
+                    <div class="status-grid">
+                        <span class="label">当前结点 p</span>
+                        <span class="value" id="currentNode">—</span>
+                        <span class="label">前驱 pre</span>
+                        <span class="value" id="preNode">—</span>
+                    </div>
+                </div>
+
+                <div class="info-box" style="flex:0 0 auto;">
+                    <h3>ltag / rtag 状态</h3>
+                    <table class="tag-table" id="tagTable">
+                        <thead>
+                            <tr><th>结点</th><th>ltag</th><th>rtag</th></tr>
+                        </thead>
+                        <tbody id="tagBody">
+                            <!-- 由 JS 动态生成 -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- 控制区 -->
+                <div class="controls">
+                    <div class="btn-group">
+                        <button class="btn outline btn-sm" id="resetBtn">重置</button>
+                        <button class="btn outline btn-sm" id="prevBtn">上一步</button>
+                        <button class="btn primary btn-sm" id="nextBtn">下一步</button>
+                        <button class="btn outline btn-sm" id="puzzleBtn">拼图</button>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:6px;margin-left:auto;">
+                        <span class="step-counter" id="stepCounter">0 / 0</span>
+                        <button class="btn success btn-sm" id="autoBtn">自动</button>
+                    </div>
+                </div>
+                <div style="font-size:12px;color:#8899aa;margin-top:2px;text-align:right;">
+                    共 <span id="totalStepsSpan">0</span> 步
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 拼图模态框 -->
+    <div id="puzzleModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closePuzzleBtn">&times;</button>
+            <h2>每一步的状态拼图</h2>
+            <div id="puzzleGrid">
+                <!-- 动态生成 -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ================================================================
+        //  1. 二叉树定义 & 布局
+        // ================================================================
+        const NODE_RADIUS = 24;
+        const ARROW_LENGTH = 10;
+        const ARROW_ANGLE = 0.45;
+
+        // 结点数据
+        const nodeData = {
+            A: { label: 'A', x: 410, y: 60 },
+            B: { label: 'B', x: 230, y: 150 },
+            C: { label: 'C', x: 590, y: 150 },
+            D: { label: 'D', x: 120, y: 250 },
+            E: { label: 'E', x: 340, y: 250 },
+            F: { label: 'F', x: 690, y: 250 },
+        };
+
+        // 树的静态结构 (左右孩子)
+        const treeStructure = {
+            A: { left: 'B', right: 'C' },
+            B: { left: 'D', right: 'E' },
+            C: { left: null, right: 'F' },
+            D: { left: null, right: null },
+            E: { left: null, right: null },
+            F: { left: null, right: null },
+        };
+
+        // 所有结点id
+        const allNodeIds = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+        // ================================================================
+        //  2. 状态管理
+        // ================================================================
+        let steps = [];
+        let currentStepIdx = -1;
+        let currentAlgo = 'in';
+        let isAutoPlaying = false;
+        let autoTimer = null;
+        let puzzleShownForCurrentAlgo = false;
+
+        const canvas = document.getElementById('treeCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // ================================================================
+        //  3. 算法实现 (带步骤记录)
+        // ================================================================
+
+        function cloneNodeState(state) {
+            const r = {};
+            for (const id of allNodeIds) {
+                const s = state[id];
+                r[id] = {
+                    left: s.left,
+                    right: s.right,
+                    ltag: s.ltag,
+                    rtag: s.rtag,
+                };
+            }
+            return r;
+        }
+
+        function getInitialState() {
+            const s = {};
+            for (const id of allNodeIds) {
+                const st = treeStructure[id];
+                s[id] = {
+                    left: st.left,
+                    right: st.right,
+                    ltag: 0,
+                    rtag: 0,
+                };
+            }
+            return s;
+        }
+
+        function recordStep(stepsArr, desc, curNode, preNode, state) {
+            stepsArr.push({
+                step: stepsArr.length + 1,
+                desc: desc,
+                currentNode: curNode,
+                preNode: preNode,
+                nodeState: cloneNodeState(state),
+            });
+        }
+
+        // ----- 中序线索化 -----
+        function generateInOrderSteps() {
+            const state = getInitialState();
+            const stepsArr = [];
+            let pre = null;
+
+            recordStep(stepsArr, '初始状态', null, null, state);
+
+            function inThread(p) {
+                if (!p) return;
+                inThread(state[p].left);
+
+                let actionDesc = `访问结点 ${p}`;
+                if (state[p].left === null) {
+                    state[p].left = pre;
+                    state[p].ltag = 1;
+                    const preLabel = pre ? pre : 'null';
+                    actionDesc += `，左线索 -> ${preLabel}`;
+                }
+                if (pre !== null && state[pre].right === null) {
+                    state[pre].right = p;
+                    state[pre].rtag = 1;
+                    actionDesc += `，${pre} 的右线索 -> ${p}`;
+                }
+                recordStep(stepsArr, actionDesc, p, pre, state);
+                pre = p;
+
+                inThread(state[p].right);
+            }
+
+            inThread('A');
+
+            if (pre !== null) {
+                if (state[pre].right === null) {
+                    state[pre].rtag = 1;
+                    recordStep(stepsArr, `收尾：${pre} 的 rtag = 1 (最后一个结点)`, null, pre, state);
+                }
+            }
+
+            return stepsArr;
+        }
+
+        // ----- 先序线索化 -----
+        function generatePreOrderSteps() {
+            const state = getInitialState();
+            const stepsArr = [];
+            let pre = null;
+
+            recordStep(stepsArr, '初始状态', null, null, state);
+
+            function preThread(p) {
+                if (!p) return;
+
+                let actionDesc = `访问结点 ${p}`;
+                if (state[p].left === null) {
+                    state[p].left = pre;
+                    state[p].ltag = 1;
+                    const preLabel = pre ? pre : 'null';
+                    actionDesc += `，左线索 -> ${preLabel}`;
+                }
+                if (pre !== null && state[pre].right === null) {
+                    state[pre].right = p;
+                    state[pre].rtag = 1;
+                    actionDesc += `，${pre} 的右线索 -> ${p}`;
+                }
+                recordStep(stepsArr, actionDesc, p, pre, state);
+                pre = p;
+
+                if (state[p].ltag === 0) {
+                    preThread(state[p].left);
+                }
+                if (state[p].rtag === 0) {
+                    preThread(state[p].right);
+                }
+            }
+
+            preThread('A');
+
+            if (pre !== null) {
+                if (state[pre].right === null) {
+                    state[pre].rtag = 1;
+                    recordStep(stepsArr, `收尾：${pre} 的 rtag = 1 (最后一个结点)`, null, pre, state);
+                }
+            }
+
+            return stepsArr;
+        }
+
+        // ----- 后序线索化 -----
+        function generatePostOrderSteps() {
+            const state = getInitialState();
+            const stepsArr = [];
+            let pre = null;
+
+            recordStep(stepsArr, '初始状态', null, null, state);
+
+            function postThread(p) {
+                if (!p) return;
+                postThread(state[p].left);
+                postThread(state[p].right);
+
+                let actionDesc = `访问结点 ${p}`;
+                if (state[p].left === null) {
+                    state[p].left = pre;
+                    state[p].ltag = 1;
+                    const preLabel = pre ? pre : 'null';
+                    actionDesc += `，左线索 -> ${preLabel}`;
+                }
+                if (pre !== null && state[pre].right === null) {
+                    state[pre].right = p;
+                    state[pre].rtag = 1;
+                    actionDesc += `，${pre} 的右线索 -> ${p}`;
+                }
+                recordStep(stepsArr, actionDesc, p, pre, state);
+                pre = p;
+            }
+
+            postThread('A');
+
+            if (pre !== null) {
+                if (state[pre].right === null) {
+                    state[pre].rtag = 1;
+                    recordStep(stepsArr, `收尾：${pre} 的 rtag = 1 (最后一个结点)`, null, pre, state);
+                }
+            }
+
+            return stepsArr;
+        }
+
+        // ================================================================
+        //  4. 绘图引擎 (支持离屏绘制)
+        // ================================================================
+        const CANVAS_W = 820,
+            CANVAS_H = 420;
+
+        function drawTree(stepData, ctxParam) {
+            const context = ctxParam || ctx;
+            context.clearRect(0, 0, CANVAS_W, CANVAS_H);
+
+            if (!stepData) {
+                context.fillStyle = '#aabacd';
+                context.font = '18px sans-serif';
+                context.textAlign = 'center';
+                context.textBaseline = 'middle';
+                context.fillText('请选择算法并开始演示', CANVAS_W / 2, CANVAS_H / 2);
+                return;
+            }
+
+            const state = stepData.nodeState;
+            const curNode = stepData.currentNode;
+            const preNode = stepData.preNode;
+
+            // 绘制所有指针 (先线后点)
+            for (const id of allNodeIds) {
+                const s = state[id];
+                const from = nodeData[id];
+                if (s.left !== null) {
+                    const to = nodeData[s.left];
+                    const isThread = (s.ltag === 1);
+                    drawArrow(context, from.x, from.y, to.x, to.y, isThread ? '#c44536' : '#3d5a73', isThread);
+                }
+                if (s.right !== null) {
+                    const to = nodeData[s.right];
+                    const isThread = (s.rtag === 1);
+                    drawArrow(context, from.x, from.y, to.x, to.y, isThread ? '#c44536' : '#3d5a73', isThread);
+                }
+            }
+
+            // 绘制所有结点
+            for (const id of allNodeIds) {
+                const nd = nodeData[id];
+                const isCur = (id === curNode);
+                const isPre = (id === preNode);
+
+                let fillColor = '#f2f6fc';
+                let strokeColor = '#3d5a73';
+                let lineWidth = 2.5;
+                let textColor = '#1a2b3c';
+
+                if (isCur) {
+                    fillColor = '#f5b342';
+                    strokeColor = '#d48c2a';
+                    lineWidth = 4;
+                    textColor = '#1a2b3c';
+                } else if (isPre) {
+                    fillColor = '#e8d9ff';
+                    strokeColor = '#7c51b3';
+                    lineWidth = 4;
+                    textColor = '#3a1f6e';
+                } else {
+                    fillColor = '#f2f6fc';
+                    strokeColor = '#3d5a73';
+                    lineWidth = 2.2;
+                    textColor = '#1a2b3c';
+                }
+
+                context.beginPath();
+                context.arc(nd.x, nd.y, NODE_RADIUS, 0, Math.PI * 2);
+                context.fillStyle = fillColor;
+                context.fill();
+                context.strokeStyle = strokeColor;
+                context.lineWidth = lineWidth;
+                context.stroke();
+
+                context.fillStyle = textColor;
+                context.font = 'bold 18px "Segoe UI", "PingFang SC", sans-serif';
+                context.textAlign = 'center';
+                context.textBaseline = 'middle';
+                context.fillText(id, nd.x, nd.y);
+
+                if (isPre) {
+                    context.fillStyle = '#7c51b3';
+                    context.font = 'bold 11px sans-serif';
+                    context.textAlign = 'center';
+                    context.textBaseline = 'bottom';
+                    context.fillText('pre', nd.x, nd.y - NODE_RADIUS - 6);
+                }
+                if (isCur) {
+                    context.fillStyle = '#d48c2a';
+                    context.font = 'bold 11px sans-serif';
+                    context.textAlign = 'center';
+                    context.textBaseline = 'bottom';
+                    context.fillText('p', nd.x, nd.y - NODE_RADIUS - 6);
+                }
+            }
+
+            context.fillStyle = '#8899aa';
+            context.font = '12px sans-serif';
+            context.textAlign = 'left';
+            context.textBaseline = 'bottom';
+            context.fillText(`步骤 ${stepData.step}`, 12, CANVAS_H - 10);
+        }
+
+        function drawArrow(context, x1, y1, x2, y2, color, dashed = false) {
+            const angle = Math.atan2(y2 - y1, x2 - x1);
+            const len = Math.hypot(x2 - x1, y2 - y1);
+            const shorten = NODE_RADIUS + 4;
+            const ratio = Math.max(0, (len - shorten) / len);
+            const sx = x1 + (x2 - x1) * (1 - ratio) * 0.3;
+            const sy = y1 + (y2 - y1) * (1 - ratio) * 0.3;
+            const ex = x2 - (x2 - x1) * (1 - ratio) * 0.3;
+            const ey = y2 - (y2 - y1) * (1 - ratio) * 0.3;
+
+            context.save();
+            context.strokeStyle = color;
+            context.lineWidth = dashed ? 2.8 : 2.5;
+            if (dashed) {
+                context.setLineDash([6, 5]);
+            } else {
+                context.setLineDash([]);
+            }
+            context.beginPath();
+            context.moveTo(sx, sy);
+            context.lineTo(ex, ey);
+            context.stroke();
+
+            const arrowLen = ARROW_LENGTH;
+            const a1 = angle + ARROW_ANGLE;
+            const a2 = angle - ARROW_ANGLE;
+            context.setLineDash([]);
+            context.fillStyle = color;
+            context.beginPath();
+            context.moveTo(ex, ey);
+            context.lineTo(ex - arrowLen * Math.cos(a1), ey - arrowLen * Math.sin(a1));
+            context.lineTo(ex - arrowLen * Math.cos(a2), ey - arrowLen * Math.sin(a2));
+            context.closePath();
+            context.fill();
+            context.restore();
+        }
+
+        // ================================================================
+        //  5. UI 控制
+        // ================================================================
+
+        function getStepsForAlgo(algo) {
+            if (algo === 'in') return generateInOrderSteps();
+            if (algo === 'pre') return generatePreOrderSteps();
+            if (algo === 'post') return generatePostOrderSteps();
+            return [];
+        }
+
+        function updateUI() {
+            const total = steps.length;
+            const idx = currentStepIdx;
+
+            document.getElementById('stepCounter').textContent = `${idx + 1} / ${total}`;
+            document.getElementById('totalStepsSpan').textContent = total;
+
+            document.getElementById('prevBtn').disabled = (idx <= 0);
+            document.getElementById('nextBtn').disabled = (idx >= total - 1);
+
+            const descEl = document.getElementById('stepDesc');
+            const curEl = document.getElementById('currentNode');
+            const preEl = document.getElementById('preNode');
+
+            if (total === 0 || idx < 0 || idx >= total) {
+                descEl.textContent = '暂无步骤，请重置或切换算法';
+                curEl.textContent = '—';
+                preEl.textContent = '—';
+                drawTree(null);
+                updateTagTable(null);
+                return;
+            }
+
+            const step = steps[idx];
+            descEl.innerHTML = step.desc || '（无描述）';
+            curEl.textContent = step.currentNode || 'null';
+            preEl.textContent = step.preNode || 'null';
+
+            drawTree(step);
+            updateTagTable(step);
+
+            // 当到达最后一步且还没显示拼图时，自动弹出
+            if (idx === total - 1 && total > 0 && !puzzleShownForCurrentAlgo) {
+                puzzleShownForCurrentAlgo = true;
+                showPuzzle();
+            }
+        }
+
+        function updateTagTable(step) {
+            const tbody = document.getElementById('tagBody');
+            if (!step) {
+                tbody.innerHTML = '<tr><td colspan="3" style="color:#8899aa;">暂无数据</td></tr>';
+                return;
+            }
+            const state = step.nodeState;
+            let html = '';
+            for (const id of allNodeIds) {
+                const s = state[id];
+                const ltagClass = s.ltag === 1 ? 'tag-1' : 'tag-0';
+                const rtagClass = s.rtag === 1 ? 'tag-1' : 'tag-0';
+                html += `<tr>
+                            <td><strong>${id}</strong></td>
+                            <td class="${ltagClass}">${s.ltag}</td>
+                            <td class="${rtagClass}">${s.rtag}</td>
+                        </tr>`;
+            }
+            tbody.innerHTML = html;
+        }
+
+        function loadAlgorithm(algo) {
+            stopAutoPlay();
+            currentAlgo = algo;
+            steps = getStepsForAlgo(algo);
+            currentStepIdx = 0;
+            puzzleShownForCurrentAlgo = false;
+            updateUI();
+
+            document.querySelectorAll('.algo-tabs .btn').forEach(b => {
+                b.classList.toggle('active-algo', b.dataset.algo === algo);
+            });
+        }
+
+        function resetAlgorithm() {
+            stopAutoPlay();
+            steps = getStepsForAlgo(currentAlgo);
+            currentStepIdx = 0;
+            puzzleShownForCurrentAlgo = false;
+            updateUI();
+            document.getElementById('puzzleModal').style.display = 'none';
+        }
+
+        function nextStep() {
+            if (currentStepIdx < steps.length - 1) {
+                currentStepIdx++;
+                updateUI();
+                return true;
+            }
+            return false;
+        }
+
+        function prevStep() {
+            if (currentStepIdx > 0) {
+                currentStepIdx--;
+                updateUI();
+                return true;
+            }
+            return false;
+        }
+
+        function toggleAutoPlay() {
+            if (isAutoPlaying) {
+                stopAutoPlay();
+            } else {
+                startAutoPlay();
+            }
+        }
+
+        function startAutoPlay() {
+            if (isAutoPlaying) return;
+            if (currentStepIdx >= steps.length - 1) {
+                currentStepIdx = 0;
+                puzzleShownForCurrentAlgo = false;
+                updateUI();
+            }
+            isAutoPlaying = true;
+            document.getElementById('autoBtn').textContent = '停止';
+            document.getElementById('autoBtn').classList.add('danger');
+            autoTimer = setInterval(() => {
+                const hasNext = nextStep();
+                if (!hasNext) {
+                    stopAutoPlay();
+                }
+            }, 700);
+        }
+
+        function stopAutoPlay() {
+            isAutoPlaying = false;
+            if (autoTimer) {
+                clearInterval(autoTimer);
+                autoTimer = null;
+            }
+            document.getElementById('autoBtn').textContent = '自动';
+            document.getElementById('autoBtn').classList.remove('danger');
+        }
+
+        // ================================================================
+        //  6. 拼图功能 (密集网格，无文字标签)
+        // ================================================================
+
+        function showPuzzle() {
+            const modal = document.getElementById('puzzleModal');
+            const grid = document.getElementById('puzzleGrid');
+            grid.innerHTML = '';
+
+            if (steps.length === 0) {
+                grid.innerHTML = '<p style="color:#8899aa;padding:20px;">没有步骤数据</p>';
+                modal.style.display = 'block';
+                return;
+            }
+
+            steps.forEach((step) => {
+                const item = document.createElement('div');
+                item.className = 'puzzle-item';
+
+                const offCanvas = document.createElement('canvas');
+                offCanvas.width = CANVAS_W;
+                offCanvas.height = CANVAS_H;
+                const offCtx = offCanvas.getContext('2d');
+                drawTree(step, offCtx);
+
+                const img = document.createElement('img');
+                img.src = offCanvas.toDataURL('image/png');
+                img.alt = `步骤 ${step.step}`;
+                img.loading = 'lazy';
+
+                item.appendChild(img);
+                // 不再添加文字标签
+                grid.appendChild(item);
+            });
+
+            modal.style.display = 'block';
+        }
+
+        function closePuzzle() {
+            document.getElementById('puzzleModal').style.display = 'none';
+        }
+
+        // ================================================================
+        //  7. 事件绑定 & 初始化
+        // ================================================================
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // 算法切换
+            document.querySelectorAll('.algo-tabs .btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const algo = this.dataset.algo;
+                    if (algo !== currentAlgo) {
+                        loadAlgorithm(algo);
+                    }
+                });
+            });
+
+            // 控制按钮
+            document.getElementById('prevBtn').addEventListener('click', prevStep);
+            document.getElementById('nextBtn').addEventListener('click', nextStep);
+            document.getElementById('resetBtn').addEventListener('click', resetAlgorithm);
+            document.getElementById('autoBtn').addEventListener('click', toggleAutoPlay);
+            document.getElementById('puzzleBtn').addEventListener('click', function() {
+                if (steps.length > 0) {
+                    showPuzzle();
+                } else {
+                    alert('请先加载一种算法步骤');
+                }
+            });
+            document.getElementById('closePuzzleBtn').addEventListener('click', closePuzzle);
+            document.getElementById('puzzleModal').addEventListener('click', function(e) {
+                if (e.target === this) closePuzzle();
+            });
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') closePuzzle();
+            });
+
+            // 键盘快捷键
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'ArrowRight' || e.key === ' ') {
+                    e.preventDefault();
+                    nextStep();
+                } else if (e.key === 'ArrowLeft') {
+                    e.preventDefault();
+                    prevStep();
+                } else if (e.key === 'r' || e.key === 'R') {
+                    resetAlgorithm();
+                }
+            });
+
+            // 初始加载中序
+            loadAlgorithm('in');
+
+            function setupCanvas() {
+                // 保持画布比例，不做缩放
+            }
+            setupCanvas();
+            window.addEventListener('resize', setupCanvas);
+        });
+
+        console.log('二叉树线索化可视化已加载。快捷键: ← → (步进), R (重置), ESC (关闭拼图)');
+    </script>
+
+</body>
+</html>
