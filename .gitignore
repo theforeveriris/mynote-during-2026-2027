@@ -4,11 +4,20 @@
 # Node modules
 node_modules/
 
+# 环境变量 / 密钥
+.env
+.env.*
+
 # OS files
-参考/
 .DS_Store
 Thumbs.db
 
+# 临时文件
+.tmp/
+.temp/
+
 #reading
 .obsidian/
-数据结构/7.查找/7.3-二叉排序树.md
+
+# 参考文件
+参考/
