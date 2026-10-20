@@ -1,139 +1,4859 @@
 [
   {
-    "name": "docs",
+    "name": "参考",
     "type": "folder",
     "children": [
       {
-        "name": "examples",
+        "name": "1.IA",
         "type": "folder",
         "children": [
           {
-            "name": "apexcharts-examples.md",
-            "type": "file",
-            "path": "docs/examples/apexcharts-examples.md"
+            "name": "a.网络基本概念",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1.网络基本概念.md",
+                "type": "file",
+                "path": "参考/1.IA/a.网络基本概念/1.网络基本概念.md"
+              },
+              {
+                "name": "2.Huawei-VRP介绍以及简单命令.md",
+                "type": "file",
+                "path": "参考/1.IA/a.网络基本概念/2.Huawei-VRP介绍以及简单命令.md"
+              }
+            ]
           },
           {
-            "name": "basic-usage.md",
-            "type": "file",
-            "path": "docs/examples/basic-usage.md"
+            "name": "b.数据链路层",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1.STP生成树协议.md",
+                "type": "file",
+                "path": "参考/1.IA/b.数据链路层/1.STP生成树协议.md"
+              },
+              {
+                "name": "2.链路聚合.md",
+                "type": "file",
+                "path": "参考/1.IA/b.数据链路层/2.链路聚合.md"
+              },
+              {
+                "name": "3.PPP（广域网技术）.md",
+                "type": "file",
+                "path": "参考/1.IA/b.数据链路层/3.PPP（广域网技术）.md"
+              },
+              {
+                "name": "4.PPPoE（广域网技术）.md",
+                "type": "file",
+                "path": "参考/1.IA/b.数据链路层/4.PPPoE（广域网技术）.md"
+              },
+              {
+                "name": "二、数据链路层.md",
+                "type": "file",
+                "path": "参考/1.IA/b.数据链路层/二、数据链路层.md"
+              }
+            ]
           },
           {
-            "name": "diff-examples.md",
-            "type": "file",
-            "path": "docs/examples/diff-examples.md"
+            "name": "c.网络层（IPv4网络层（IP头部））",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1、IP地址规划.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/1、IP地址规划.md"
+              },
+              {
+                "name": "2、ICMP协议.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/2、ICMP协议.md"
+              },
+              {
+                "name": "3、路由基础.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/3、路由基础.md"
+              },
+              {
+                "name": "3、VLAN划分.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/3、VLAN划分.md"
+              },
+              {
+                "name": "4、路由的类型.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/4、路由的类型.md"
+              },
+              {
+                "name": "5、OSPF基本概念.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/5、OSPF基本概念.md"
+              },
+              {
+                "name": "6、ACL基本概念.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/6、ACL基本概念.md"
+              },
+              {
+                "name": "6、OSPF报文解析.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/6、OSPF报文解析.md"
+              },
+              {
+                "name": "7、以太网交换基础.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/7、以太网交换基础.md"
+              },
+              {
+                "name": "8、单臂路由与三层交换.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/8、单臂路由与三层交换.md"
+              },
+              {
+                "name": "9、ARP（地址解析协议）.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/9、ARP（地址解析协议）.md"
+              },
+              {
+                "name": "三、网络层（IPv4网络层（IP头部））.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/三、网络层（IPv4网络层（IP头部））.md"
+              },
+              {
+                "name": "NAT.md",
+                "type": "file",
+                "path": "参考/1.IA/c.网络层（IPv4网络层（IP头部））/NAT.md"
+              }
+            ]
           },
           {
-            "name": "embed-examples.md",
-            "type": "file",
-            "path": "docs/examples/embed-examples.md"
+            "name": "d.传输层TCP",
+            "type": "folder",
+            "children": [
+              {
+                "name": "UDP",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "1、TCP建立连接的操作.md",
+                    "type": "file",
+                    "path": "参考/1.IA/d.传输层TCP/UDP/1、TCP建立连接的操作.md"
+                  },
+                  {
+                    "name": "四、传输层TCPUDP.md",
+                    "type": "file",
+                    "path": "参考/1.IA/d.传输层TCP/UDP/四、传输层TCPUDP.md"
+                  }
+                ]
+              }
+            ]
           },
           {
-            "name": "geojson-examples.md",
-            "type": "file",
-            "path": "docs/examples/geojson-examples.md"
+            "name": "e.应用层（FTP",
+            "type": "folder",
+            "children": [
+              {
+                "name": "TFTP）",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "1、NTP.md",
+                    "type": "file",
+                    "path": "参考/1.IA/e.应用层（FTP/TFTP）/1、NTP.md"
+                  },
+                  {
+                    "name": "2、DHCPDNS.md",
+                    "type": "file",
+                    "path": "参考/1.IA/e.应用层（FTP/TFTP）/2、DHCPDNS.md"
+                  },
+                  {
+                    "name": "2、USGTelnetSSH.md",
+                    "type": "file",
+                    "path": "参考/1.IA/e.应用层（FTP/TFTP）/2、USGTelnetSSH.md"
+                  },
+                  {
+                    "name": "3、DNS.md",
+                    "type": "file",
+                    "path": "参考/1.IA/e.应用层（FTP/TFTP）/3、DNS.md"
+                  },
+                  {
+                    "name": "五、应用层（FTPTFTP）.md",
+                    "type": "file",
+                    "path": "参考/1.IA/e.应用层（FTP/TFTP）/五、应用层（FTPTFTP）.md"
+                  }
+                ]
+              }
+            ]
           },
           {
-            "name": "github-alerts-examples.md",
-            "type": "file",
-            "path": "docs/examples/github-alerts-examples.md"
-          },
-          {
-            "name": "image-gallery-examples.md",
-            "type": "file",
-            "path": "docs/examples/image-gallery-examples.md"
-          },
-          {
-            "name": "latex-examples.md",
-            "type": "file",
-            "path": "docs/examples/latex-examples.md"
-          },
-          {
-            "name": "markdown-syntax.md",
-            "type": "file",
-            "path": "docs/examples/markdown-syntax.md"
-          },
-          {
-            "name": "mermaid-examples.md",
-            "type": "file",
-            "path": "docs/examples/mermaid-examples.md"
-          },
-          {
-            "name": "native-html-examples.md",
-            "type": "file",
-            "path": "docs/examples/native-html-examples.md"
-          },
-          {
-            "name": "plantuml-examples.md",
-            "type": "file",
-            "path": "docs/examples/plantuml-examples.md"
-          },
-          {
-            "name": "plugin-demo.md",
-            "type": "file",
-            "path": "docs/examples/plugin-demo.md"
-          },
-          {
-            "name": "qrcode-examples.md",
-            "type": "file",
-            "path": "docs/examples/qrcode-examples.md"
-          },
-          {
-            "name": "theme-demo.md",
-            "type": "file",
-            "path": "docs/examples/theme-demo.md"
-          },
-          {
-            "name": "twitter-embed-examples.md",
-            "type": "file",
-            "path": "docs/examples/twitter-embed-examples.md"
+            "name": "WLAN",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1.无线通信系统.md",
+                "type": "file",
+                "path": "参考/1.IA/WLAN/1.无线通信系统.md"
+              },
+              {
+                "name": "2.无线侧组网概念.md",
+                "type": "file",
+                "path": "参考/1.IA/WLAN/2.无线侧组网概念.md"
+              },
+              {
+                "name": "3.二层组网与三层组网.md",
+                "type": "file",
+                "path": "参考/1.IA/WLAN/3.二层组网与三层组网.md"
+              },
+              {
+                "name": "4.WLAN工作流程.md",
+                "type": "file",
+                "path": "参考/1.IA/WLAN/4.WLAN工作流程.md"
+              },
+              {
+                "name": "WLAN.md",
+                "type": "file",
+                "path": "参考/1.IA/WLAN/WLAN.md"
+              }
+            ]
           }
         ]
       },
       {
-        "name": "configuration.md",
-        "type": "file",
-        "path": "docs/configuration.md"
+        "name": "2.IP",
+        "type": "folder",
+        "children": [
+          {
+            "name": "a.OSPF-LSA",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1、12类LSA的运用.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/1、12类LSA的运用.md"
+              },
+              {
+                "name": "1、1类：LSA.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/1、1类：LSA.md"
+              },
+              {
+                "name": "2类：LSA.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/2类：LSA.md"
+              },
+              {
+                "name": "3类：LSA.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/3类：LSA.md"
+              },
+              {
+                "name": "4，5类LSA.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/4，5类LSA.md"
+              },
+              {
+                "name": "二、虚链路防环.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/二、虚链路防环.md"
+              },
+              {
+                "name": "二、OSPF特殊区域.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/二、OSPF特殊区域.md"
+              },
+              {
+                "name": "三、区域间路由汇总和区域外路由汇总.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/三、区域间路由汇总和区域外路由汇总.md"
+              },
+              {
+                "name": "四、路由过滤.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/四、路由过滤.md"
+              },
+              {
+                "name": "五、OSPF认证.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/五、OSPF认证.md"
+              },
+              {
+                "name": "一、5类LSA的次优.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/一、5类LSA的次优.md"
+              },
+              {
+                "name": "一、区域间的防环规则.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/一、区域间的防环规则.md"
+              },
+              {
+                "name": "OSPF-LSA.md",
+                "type": "file",
+                "path": "参考/2.IP/a.OSPF-LSA/OSPF-LSA.md"
+              }
+            ]
+          },
+          {
+            "name": "b.IS-IS",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1.ISIS的报文.md",
+                "type": "file",
+                "path": "参考/2.IP/b.IS-IS/1.ISIS的报文.md"
+              },
+              {
+                "name": "2.ISIS的LSP信息.md",
+                "type": "file",
+                "path": "参考/2.IP/b.IS-IS/2.ISIS的LSP信息.md"
+              },
+              {
+                "name": "3.ISIS区域间LSP信息.md",
+                "type": "file",
+                "path": "参考/2.IP/b.IS-IS/3.ISIS区域间LSP信息.md"
+              },
+              {
+                "name": "4.ISIS区域外路由计算、开销风格、汇总.md",
+                "type": "file",
+                "path": "参考/2.IP/b.IS-IS/4.ISIS区域外路由计算、开销风格、汇总.md"
+              },
+              {
+                "name": "5. ISIS路由过滤.md",
+                "type": "file",
+                "path": "参考/2.IP/b.IS-IS/5. ISIS路由过滤.md"
+              },
+              {
+                "name": "5.ISIS认证.md",
+                "type": "file",
+                "path": "参考/2.IP/b.IS-IS/5.ISIS认证.md"
+              },
+              {
+                "name": "7.ISIS扩展OL，聚合.md",
+                "type": "file",
+                "path": "参考/2.IP/b.IS-IS/7.ISIS扩展OL，聚合.md"
+              },
+              {
+                "name": "IS-IS.md",
+                "type": "file",
+                "path": "参考/2.IP/b.IS-IS/IS-IS.md"
+              }
+            ]
+          },
+          {
+            "name": "c.BGP",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1、BGP基础.md",
+                "type": "file",
+                "path": "参考/2.IP/c.BGP/1、BGP基础.md"
+              },
+              {
+                "name": "2、BGP报文、状态机.md",
+                "type": "file",
+                "path": "参考/2.IP/c.BGP/2、BGP报文、状态机.md"
+              },
+              {
+                "name": "3、BGP路由属性.md",
+                "type": "file",
+                "path": "参考/2.IP/c.BGP/3、BGP路由属性.md"
+              },
+              {
+                "name": "4、BGP路由传递及通告规则.md",
+                "type": "file",
+                "path": "参考/2.IP/c.BGP/4、BGP路由传递及通告规则.md"
+              },
+              {
+                "name": "5、BGP反射器.md",
+                "type": "file",
+                "path": "参考/2.IP/c.BGP/5、BGP反射器.md"
+              },
+              {
+                "name": "6、BGP联盟.md",
+                "type": "file",
+                "path": "参考/2.IP/c.BGP/6、BGP联盟.md"
+              },
+              {
+                "name": "7、BGP的路由优选.md",
+                "type": "file",
+                "path": "参考/2.IP/c.BGP/7、BGP的路由优选.md"
+              },
+              {
+                "name": "8、BGP的路由汇总.md",
+                "type": "file",
+                "path": "参考/2.IP/c.BGP/8、BGP的路由汇总.md"
+              },
+              {
+                "name": "9、BGP认证、BGP与IGP同步、RR分类.md",
+                "type": "file",
+                "path": "参考/2.IP/c.BGP/9、BGP认证、BGP与IGP同步、RR分类.md"
+              }
+            ]
+          },
+          {
+            "name": "d.VPN",
+            "type": "folder",
+            "children": [
+              {
+                "name": "未命名.md",
+                "type": "file",
+                "path": "参考/2.IP/d.VPN/未命名.md"
+              },
+              {
+                "name": "GRE-VPN.md",
+                "type": "file",
+                "path": "参考/2.IP/d.VPN/GRE-VPN.md"
+              },
+              {
+                "name": "IPSec-VPN.md",
+                "type": "file",
+                "path": "参考/2.IP/d.VPN/IPSec-VPN.md"
+              },
+              {
+                "name": "VPN基础概论.md",
+                "type": "file",
+                "path": "参考/2.IP/d.VPN/VPN基础概论.md"
+              },
+              {
+                "name": "VRF.md",
+                "type": "file",
+                "path": "参考/2.IP/d.VPN/VRF.md"
+              }
+            ]
+          },
+          {
+            "name": "e.WLAN",
+            "type": "folder",
+            "children": [
+              {
+                "name": "WLAN三层组网.md",
+                "type": "file",
+                "path": "参考/2.IP/e.WLAN/WLAN三层组网.md"
+              },
+              {
+                "name": "WLAN三层组网概述.md",
+                "type": "file",
+                "path": "参考/2.IP/e.WLAN/WLAN三层组网概述.md"
+              }
+            ]
+          },
+          {
+            "name": "f.防火墙",
+            "type": "folder",
+            "children": [
+              {
+                "name": "防火墙的多通道协议.md",
+                "type": "file",
+                "path": "参考/2.IP/f.防火墙/防火墙的多通道协议.md"
+              },
+              {
+                "name": "防火墙的双机热备份.md",
+                "type": "file",
+                "path": "参考/2.IP/f.防火墙/防火墙的双机热备份.md"
+              },
+              {
+                "name": "防火墙基础.md",
+                "type": "file",
+                "path": "参考/2.IP/f.防火墙/防火墙基础.md"
+              },
+              {
+                "name": "虚墙.md",
+                "type": "file",
+                "path": "参考/2.IP/f.防火墙/虚墙.md"
+              }
+            ]
+          },
+          {
+            "name": "g.组播",
+            "type": "folder",
+            "children": [
+              {
+                "name": "组播基础.md",
+                "type": "file",
+                "path": "参考/2.IP/g.组播/组播基础.md"
+              }
+            ]
+          },
+          {
+            "name": "h.其他",
+            "type": "folder",
+            "children": [
+              {
+                "name": "二、集群.md",
+                "type": "file",
+                "path": "参考/2.IP/h.其他/二、集群.md"
+              },
+              {
+                "name": "二、MSTP.md",
+                "type": "file",
+                "path": "参考/2.IP/h.其他/二、MSTP.md"
+              },
+              {
+                "name": "三、路由策列与路由控制.md",
+                "type": "file",
+                "path": "参考/2.IP/h.其他/三、路由策列与路由控制.md"
+              },
+              {
+                "name": "三、VRRP.md",
+                "type": "file",
+                "path": "参考/2.IP/h.其他/三、VRRP.md"
+              },
+              {
+                "name": "四、解决双点双向产生的问题：环路.md",
+                "type": "file",
+                "path": "参考/2.IP/h.其他/四、解决双点双向产生的问题：环路.md"
+              },
+              {
+                "name": "四、BFD.md",
+                "type": "file",
+                "path": "参考/2.IP/h.其他/四、BFD.md"
+              },
+              {
+                "name": "一、策略路由、MQC.md",
+                "type": "file",
+                "path": "参考/2.IP/h.其他/一、策略路由、MQC.md"
+              },
+              {
+                "name": "一、堆叠.md",
+                "type": "file",
+                "path": "参考/2.IP/h.其他/一、堆叠.md"
+              },
+              {
+                "name": "RSTP.md",
+                "type": "file",
+                "path": "参考/2.IP/h.其他/RSTP.md"
+              }
+            ]
+          },
+          {
+            "name": "SRv6 EVPN",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1.基础知识.md",
+                "type": "file",
+                "path": "参考/2.IP/SRv6 EVPN/1.基础知识.md"
+              }
+            ]
+          }
+        ]
       },
       {
-        "name": "faq.md",
-        "type": "file",
-        "path": "docs/faq.md"
+        "name": "3.IE",
+        "type": "folder",
+        "children": [
+          {
+            "name": "1.IPv6",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1、IPV6基础概念.md",
+                "type": "file",
+                "path": "参考/3.IE/1.IPv6/1、IPV6基础概念.md"
+              },
+              {
+                "name": "10、BGP4+.md",
+                "type": "file",
+                "path": "参考/3.IE/1.IPv6/10、BGP4+.md"
+              },
+              {
+                "name": "11、IPv4与IPv6的比较(自研).md",
+                "type": "file",
+                "path": "参考/3.IE/1.IPv6/11、IPv4与IPv6的比较(自研).md"
+              },
+              {
+                "name": "2、IPv6报文格式.md",
+                "type": "file",
+                "path": "参考/3.IE/1.IPv6/2、IPv6报文格式.md"
+              },
+              {
+                "name": "3、ICMPv6-报文、分片.md",
+                "type": "file",
+                "path": "参考/3.IE/1.IPv6/3、ICMPv6-报文、分片.md"
+              },
+              {
+                "name": "4、ICMPv6，NDP.md",
+                "type": "file",
+                "path": "参考/3.IE/1.IPv6/4、ICMPv6，NDP.md"
+              },
+              {
+                "name": "5、IPv6静态路由.md",
+                "type": "file",
+                "path": "参考/3.IE/1.IPv6/5、IPv6静态路由.md"
+              },
+              {
+                "name": "6、DHCPv6（relay，PD）.md",
+                "type": "file",
+                "path": "参考/3.IE/1.IPv6/6、DHCPv6（relay，PD）.md"
+              },
+              {
+                "name": "7、OSPFv3.md",
+                "type": "file",
+                "path": "参考/3.IE/1.IPv6/7、OSPFv3.md"
+              },
+              {
+                "name": "8、OSPFv3的认证.md",
+                "type": "file",
+                "path": "参考/3.IE/1.IPv6/8、OSPFv3的认证.md"
+              },
+              {
+                "name": "9、IPv6-ISIS.md",
+                "type": "file",
+                "path": "参考/3.IE/1.IPv6/9、IPv6-ISIS.md"
+              }
+            ]
+          },
+          {
+            "name": "2.网络安全",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1、DHCP Snooping、IP SG.md",
+                "type": "file",
+                "path": "参考/3.IE/2.网络安全/1、DHCP Snooping、IP SG.md"
+              },
+              {
+                "name": "2、网络层安全（端口隔离，MAC地址安全，泛洪控制.md",
+                "type": "file",
+                "path": "参考/3.IE/2.网络安全/2、网络层安全（端口隔离，MAC地址安全，泛洪控制.md"
+              }
+            ]
+          },
+          {
+            "name": "3.路由协议的高级特性",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1、OSPF高级特性.md",
+                "type": "file",
+                "path": "参考/3.IE/3.路由协议的高级特性/1、OSPF高级特性.md"
+              },
+              {
+                "name": "2、ISIS高级特性.md",
+                "type": "file",
+                "path": "参考/3.IE/3.路由协议的高级特性/2、ISIS高级特性.md"
+              },
+              {
+                "name": "3、BGP高级特性.md",
+                "type": "file",
+                "path": "参考/3.IE/3.路由协议的高级特性/3、BGP高级特性.md"
+              }
+            ]
+          },
+          {
+            "name": "4.IPv6过渡技术",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1、静态GRE隧道.md",
+                "type": "file",
+                "path": "参考/3.IE/4.IPv6过渡技术/1、静态GRE隧道.md"
+              },
+              {
+                "name": "2、IPv6过渡技术-静态6over4隧道.md",
+                "type": "file",
+                "path": "参考/3.IE/4.IPv6过渡技术/2、IPv6过渡技术-静态6over4隧道.md"
+              },
+              {
+                "name": "3、IPv6过渡技术-动态6to4隧道.md",
+                "type": "file",
+                "path": "参考/3.IE/4.IPv6过渡技术/3、IPv6过渡技术-动态6to4隧道.md"
+              },
+              {
+                "name": "4、IPv6过渡技术-动态ISATAP隧道.md",
+                "type": "file",
+                "path": "参考/3.IE/4.IPv6过渡技术/4、IPv6过渡技术-动态ISATAP隧道.md"
+              },
+              {
+                "name": "5、IPv6过渡技术-NAT64.md",
+                "type": "file",
+                "path": "参考/3.IE/4.IPv6过渡技术/5、IPv6过渡技术-NAT64.md"
+              }
+            ]
+          },
+          {
+            "name": "5.QoS",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1、QoS基础概论.md",
+                "type": "file",
+                "path": "参考/3.IE/5.QoS/1、QoS基础概论.md"
+              },
+              {
+                "name": "2、为什么要有qos？.md",
+                "type": "file",
+                "path": "参考/3.IE/5.QoS/2、为什么要有qos？.md"
+              }
+            ]
+          },
+          {
+            "name": "6.MPLS",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1.MPLS VPN",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "1、MPLS概论.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/1、MPLS概论.md"
+                  },
+                  {
+                    "name": "1.多PE情况的防环.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/1.多PE情况的防环.md"
+                  },
+                  {
+                    "name": "11、跨域MPLS-VPN 基础.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/11、跨域MPLS-VPN 基础.md"
+                  },
+                  {
+                    "name": "12、Option-A.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/12、Option-A.md"
+                  },
+                  {
+                    "name": "13、Option-B.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/13、Option-B.md"
+                  },
+                  {
+                    "name": "14、Option-C1.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/14、Option-C1.md"
+                  },
+                  {
+                    "name": "14、Option-C1（RR）.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/14、Option-C1（RR）.md"
+                  },
+                  {
+                    "name": "15、Option-C2.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/15、Option-C2.md"
+                  },
+                  {
+                    "name": "16、Option-C2（RR）.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/16、Option-C2（RR）.md"
+                  },
+                  {
+                    "name": "2、LDP基本概念(消息，状态机).md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/2、LDP基本概念(消息，状态机).md"
+                  },
+                  {
+                    "name": "2.基于RIB表的公网与私网互通（私与私）.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/2.基于RIB表的公网与私网互通（私与私）.md"
+                  },
+                  {
+                    "name": "3、LDP的标签和MPLS汇总.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/3、LDP的标签和MPLS汇总.md"
+                  },
+                  {
+                    "name": "3.跨域VPN-OptionA.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/3.跨域VPN-OptionA.md"
+                  },
+                  {
+                    "name": "4、IGP与LDP的同步：.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/4、IGP与LDP的同步：.md"
+                  },
+                  {
+                    "name": "4.跨域VPN-OptionB.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/4.跨域VPN-OptionB.md"
+                  },
+                  {
+                    "name": "5、MPLS-VPN.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/5、MPLS-VPN.md"
+                  },
+                  {
+                    "name": "5.跨域VPN-OptionC1.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/5.跨域VPN-OptionC1.md"
+                  },
+                  {
+                    "name": "6、Hub&Spoke模型路由发布的三种方式.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/6、Hub&Spoke模型路由发布的三种方式.md"
+                  },
+                  {
+                    "name": "6、MPLS-VPN（hub-spoke模型）.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/6、MPLS-VPN（hub-spoke模型）.md"
+                  },
+                  {
+                    "name": "6.跨域VPN-OptionC2.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/6.跨域VPN-OptionC2.md"
+                  },
+                  {
+                    "name": "7、MPLS VPN（OSPF-伪链接）.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/7、MPLS VPN（OSPF-伪链接）.md"
+                  },
+                  {
+                    "name": "7.其他.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/7.其他.md"
+                  },
+                  {
+                    "name": "8、MPLS VPN（OSPF站点双归,MPE和MCE）.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/8、MPLS VPN（OSPF站点双归,MPE和MCE）.md"
+                  },
+                  {
+                    "name": "9、MPLS VPN（BGP站点双归）.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/1.MPLS VPN/9、MPLS VPN（BGP站点双归）.md"
+                  }
+                ]
+              },
+              {
+                "name": "2.MPLS TE",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "1.基本概念.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/1.基本概念.md"
+                  },
+                  {
+                    "name": "2.信息发布.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/2.信息发布.md"
+                  },
+                  {
+                    "name": "3.路径计算.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/3.路径计算.md"
+                  },
+                  {
+                    "name": "4.路径建立.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/4.路径建立.md"
+                  },
+                  {
+                    "name": "基于RSVP-TE建立动态CR-LSP隧道（综合选路）.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/基于RSVP-TE建立动态CR-LSP隧道（综合选路）.md"
+                  },
+                  {
+                    "name": "建立静态CR-LSP隧道建立.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/建立静态CR-LSP隧道建立.md"
+                  },
+                  {
+                    "name": "静态双向共路CR-LSP.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/静态双向共路CR-LSP.md"
+                  },
+                  {
+                    "name": "引流类型：静态，PBR，tnl-policy，自动路由发现.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/引流类型：静态，PBR，tnl-policy，自动路由发现.md"
+                  },
+                  {
+                    "name": "Hot-Standby 备份路径.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/Hot-Standby 备份路径.md"
+                  },
+                  {
+                    "name": "LDP Over RSVP.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/LDP Over RSVP.md"
+                  },
+                  {
+                    "name": "MPLS TE 流量转发的几种方式.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/MPLS TE 流量转发的几种方式.md"
+                  },
+                  {
+                    "name": "MPLS TE L3 VPN(LDP,RSVP-TE混合分配标签).md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/MPLS TE L3 VPN(LDP,RSVP-TE混合分配标签).md"
+                  },
+                  {
+                    "name": "MPLS TE L3 VPN引流（tnl-policy）下的select-seq，binding区别于联系.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/MPLS TE L3 VPN引流（tnl-policy）下的select-seq，binding区别于联系.md"
+                  },
+                  {
+                    "name": "RSVP-TE建立动态CR-LSP隧道（工作流程）.md",
+                    "type": "file",
+                    "path": "参考/3.IE/6.MPLS/2.MPLS TE/RSVP-TE建立动态CR-LSP隧道（工作流程）.md"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "7.EVPN",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1.BGP EVPN",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "1.基本概念.md",
+                    "type": "file",
+                    "path": "参考/3.IE/7.EVPN/1.BGP EVPN/1.基本概念.md"
+                  },
+                  {
+                    "name": "2.BGP EVPN路由.md",
+                    "type": "file",
+                    "path": "参考/3.IE/7.EVPN/1.BGP EVPN/2.BGP EVPN路由.md"
+                  },
+                  {
+                    "name": "3.BGP EVPN特性.md",
+                    "type": "file",
+                    "path": "参考/3.IE/7.EVPN/1.BGP EVPN/3.BGP EVPN特性.md"
+                  },
+                  {
+                    "name": "6.MPLS EVPN.md",
+                    "type": "file",
+                    "path": "参考/3.IE/7.EVPN/1.BGP EVPN/6.MPLS EVPN.md"
+                  }
+                ]
+              },
+              {
+                "name": "1.EVPN-Port_Base.md",
+                "type": "file",
+                "path": "参考/3.IE/7.EVPN/1.EVPN-Port_Base.md"
+              },
+              {
+                "name": "1.EVPN基础概论.md",
+                "type": "file",
+                "path": "参考/3.IE/7.EVPN/1.EVPN基础概论.md"
+              },
+              {
+                "name": "2.EVPN-vlan_base.md",
+                "type": "file",
+                "path": "参考/3.IE/7.EVPN/2.EVPN-vlan_base.md"
+              },
+              {
+                "name": "3.EVPN-vlan_Bundle.md",
+                "type": "file",
+                "path": "参考/3.IE/7.EVPN/3.EVPN-vlan_Bundle.md"
+              },
+              {
+                "name": "4.EVPN-vlan_Aware_Bundle.md",
+                "type": "file",
+                "path": "参考/3.IE/7.EVPN/4.EVPN-vlan_Aware_Bundle.md"
+              },
+              {
+                "name": "5.EVPN-L2和L3 融合部署 vlan-Aware-Bundle接入.md",
+                "type": "file",
+                "path": "参考/3.IE/7.EVPN/5.EVPN-L2和L3 融合部署 vlan-Aware-Bundle接入.md"
+              },
+              {
+                "name": "6.EVPN-双活E-Trunk.md",
+                "type": "file",
+                "path": "参考/3.IE/7.EVPN/6.EVPN-双活E-Trunk.md"
+              },
+              {
+                "name": "EVN.md",
+                "type": "file",
+                "path": "参考/3.IE/7.EVPN/EVN.md"
+              }
+            ]
+          },
+          {
+            "name": "7.VxLAN",
+            "type": "folder",
+            "children": [
+              {
+                "name": "VXLAN",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "分布式网关.md",
+                    "type": "file",
+                    "path": "参考/3.IE/7.VxLAN/VXLAN/分布式网关.md"
+                  },
+                  {
+                    "name": "静态配置集中式网关.md",
+                    "type": "file",
+                    "path": "参考/3.IE/7.VxLAN/VXLAN/静态配置集中式网关.md"
+                  },
+                  {
+                    "name": "VXLAN EVPN.md",
+                    "type": "file",
+                    "path": "参考/3.IE/7.VxLAN/VXLAN/VXLAN EVPN.md"
+                  }
+                ]
+              },
+              {
+                "name": "1、VXLAN及园区网络虚拟化技术背景.md",
+                "type": "file",
+                "path": "参考/3.IE/7.VxLAN/1、VXLAN及园区网络虚拟化技术背景.md"
+              },
+              {
+                "name": "2、基本概念.md",
+                "type": "file",
+                "path": "参考/3.IE/7.VxLAN/2、基本概念.md"
+              },
+              {
+                "name": "3、工作原理.md",
+                "type": "file",
+                "path": "参考/3.IE/7.VxLAN/3、工作原理.md"
+              },
+              {
+                "name": "4、基本配置.md",
+                "type": "file",
+                "path": "参考/3.IE/7.VxLAN/4、基本配置.md"
+              },
+              {
+                "name": "5、静态VXLAN总结.md",
+                "type": "file",
+                "path": "参考/3.IE/7.VxLAN/5、静态VXLAN总结.md"
+              },
+              {
+                "name": "6、VxLAN 静态（同子网、跨子网通信）.md",
+                "type": "file",
+                "path": "参考/3.IE/7.VxLAN/6、VxLAN 静态（同子网、跨子网通信）.md"
+              }
+            ]
+          },
+          {
+            "name": "8.SR",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1.背景.md",
+                "type": "file",
+                "path": "参考/3.IE/8.SR/1.背景.md"
+              },
+              {
+                "name": "1.SR基础.md",
+                "type": "file",
+                "path": "参考/3.IE/8.SR/1.SR基础.md"
+              }
+            ]
+          },
+          {
+            "name": "9.SRv6",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1.SRv6基础.md",
+                "type": "file",
+                "path": "参考/3.IE/9.SRv6/1.SRv6基础.md"
+              }
+            ]
+          },
+          {
+            "name": "i.广域网隧道",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1、L2TP隧道.md",
+                "type": "file",
+                "path": "参考/3.IE/i.广域网隧道/1、L2TP隧道.md"
+              },
+              {
+                "name": "2、DSVPN：动态智能VPN.md",
+                "type": "file",
+                "path": "参考/3.IE/i.广域网隧道/2、DSVPN：动态智能VPN.md"
+              }
+            ]
+          }
+        ]
       },
       {
-        "name": "getting-started.md",
-        "type": "file",
-        "path": "docs/getting-started.md"
+        "name": "存在主义哲学谱系",
+        "type": "folder",
+        "children": [
+          {
+            "name": "01-思想先驱",
+            "type": "folder",
+            "children": [
+              {
+                "name": "克尔凯郭尔-主观真理与人生三阶段.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/01-思想先驱/克尔凯郭尔-主观真理与人生三阶段.md"
+              },
+              {
+                "name": "尼采-上帝之死与权力意志.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/01-思想先驱/尼采-上帝之死与权力意志.md"
+              },
+              {
+                "name": "陀思妥耶夫斯基-自由意志与虚无主义.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/01-思想先驱/陀思妥耶夫斯基-自由意志与虚无主义.md"
+              }
+            ]
+          },
+          {
+            "name": "02-德国存在主义",
+            "type": "folder",
+            "children": [
+              {
+                "name": "海德格尔-此在与向死而在.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/02-德国存在主义/海德格尔-此在与向死而在.md"
+              },
+              {
+                "name": "雅斯贝尔斯-极限境遇与存在哲学.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/02-德国存在主义/雅斯贝尔斯-极限境遇与存在哲学.md"
+              }
+            ]
+          },
+          {
+            "name": "03-法国存在主义-无神论",
+            "type": "folder",
+            "children": [
+              {
+                "name": "波伏娃-第二性与他者.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/03-法国存在主义-无神论/波伏娃-第二性与他者.md"
+              },
+              {
+                "name": "梅洛-庞蒂-身体与知觉现象学.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/03-法国存在主义-无神论/梅洛-庞蒂-身体与知觉现象学.md"
+              },
+              {
+                "name": "萨特-存在先于本质与自由.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/03-法国存在主义-无神论/萨特-存在先于本质与自由.md"
+              },
+              {
+                "name": "萨特-自欺与他人即地狱.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/03-法国存在主义-无神论/萨特-自欺与他人即地狱.md"
+              }
+            ]
+          },
+          {
+            "name": "04-法国存在主义-有神论",
+            "type": "folder",
+            "children": [
+              {
+                "name": "马塞尔-奥秘与希望.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/04-法国存在主义-有神论/马塞尔-奥秘与希望.md"
+              }
+            ]
+          },
+          {
+            "name": "05-荒诞哲学",
+            "type": "folder",
+            "children": [
+              {
+                "name": "加缪-荒诞与反抗.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/05-荒诞哲学/加缪-荒诞与反抗.md"
+              }
+            ]
+          },
+          {
+            "name": "06-俄国东欧存在主义",
+            "type": "folder",
+            "children": [
+              {
+                "name": "别尔嘉耶夫-自由与人格主义.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/06-俄国东欧存在主义/别尔嘉耶夫-自由与人格主义.md"
+              },
+              {
+                "name": "舍斯托夫-信仰与理性批判.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/06-俄国东欧存在主义/舍斯托夫-信仰与理性批判.md"
+              }
+            ]
+          },
+          {
+            "name": "07-存在主义文学",
+            "type": "folder",
+            "children": [
+              {
+                "name": "贝克特-虚无与等待.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/07-存在主义文学/贝克特-虚无与等待.md"
+              },
+              {
+                "name": "海明威-虚无下的尊严行动.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/07-存在主义文学/海明威-虚无下的尊严行动.md"
+              },
+              {
+                "name": "卡夫卡-异化与荒诞.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/07-存在主义文学/卡夫卡-异化与荒诞.md"
+              },
+              {
+                "name": "热内-恶与存在.md",
+                "type": "file",
+                "path": "参考/存在主义哲学谱系/07-存在主义文学/热内-恶与存在.md"
+              }
+            ]
+          },
+          {
+            "name": "00-资料索引.md",
+            "type": "file",
+            "path": "参考/存在主义哲学谱系/00-资料索引.md"
+          },
+          {
+            "name": "00-总报告-存在主义入门指南.md",
+            "type": "file",
+            "path": "参考/存在主义哲学谱系/00-总报告-存在主义入门指南.md"
+          }
+        ]
       },
       {
-        "name": "migration.md",
-        "type": "file",
-        "path": "docs/migration.md"
+        "name": "精神分析理论谱系",
+        "type": "folder",
+        "children": [
+          {
+            "name": "01-经典精神分析",
+            "type": "folder",
+            "children": [
+              {
+                "name": "佛洛伊德-1-潜意识与心理地形.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/01-经典精神分析/佛洛伊德-1-潜意识与心理地形.md"
+              },
+              {
+                "name": "佛洛伊德-2-本我自我超我结构模型.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/01-经典精神分析/佛洛伊德-2-本我自我超我结构模型.md"
+              },
+              {
+                "name": "佛洛伊德-3-性心理发展阶段.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/01-经典精神分析/佛洛伊德-3-性心理发展阶段.md"
+              },
+              {
+                "name": "佛洛伊德-4-防御机制.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/01-经典精神分析/佛洛伊德-4-防御机制.md"
+              },
+              {
+                "name": "佛洛伊德-5-释梦与自由联想.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/01-经典精神分析/佛洛伊德-5-释梦与自由联想.md"
+              },
+              {
+                "name": "赖希-性格盔甲与身体治疗.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/01-经典精神分析/赖希-性格盔甲与身体治疗.md"
+              },
+              {
+                "name": "兰克-出生创伤与意志治疗.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/01-经典精神分析/兰克-出生创伤与意志治疗.md"
+              }
+            ]
+          },
+          {
+            "name": "02-个体心理学",
+            "type": "folder",
+            "children": [
+              {
+                "name": "阿德勒-1-自卑感与追求优越.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/02-个体心理学/阿德勒-1-自卑感与追求优越.md"
+              },
+              {
+                "name": "阿德勒-2-社会兴趣与生活风格.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/02-个体心理学/阿德勒-2-社会兴趣与生活风格.md"
+              }
+            ]
+          },
+          {
+            "name": "03-分析心理学",
+            "type": "folder",
+            "children": [
+              {
+                "name": "冯·弗朗茨-童话与原型研究.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/03-分析心理学/冯·弗朗茨-童话与原型研究.md"
+              },
+              {
+                "name": "诺伊曼-自性发展理论.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/03-分析心理学/诺伊曼-自性发展理论.md"
+              },
+              {
+                "name": "荣格-1-集体潜意识与原型.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/03-分析心理学/荣格-1-集体潜意识与原型.md"
+              },
+              {
+                "name": "荣格-2-原型体系（人格面具阴影阿尼玛自性）.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/03-分析心理学/荣格-2-原型体系（人格面具阴影阿尼玛自性）.md"
+              },
+              {
+                "name": "荣格-3-心理类型.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/03-分析心理学/荣格-3-心理类型.md"
+              },
+              {
+                "name": "荣格-4-自性化.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/03-分析心理学/荣格-4-自性化.md"
+              }
+            ]
+          },
+          {
+            "name": "04-自我心理学",
+            "type": "folder",
+            "children": [
+              {
+                "name": "埃里克森-心理社会发展八阶段.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/04-自我心理学/埃里克森-心理社会发展八阶段.md"
+              },
+              {
+                "name": "安娜·佛洛伊德-防御机制与儿童精神分析.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/04-自我心理学/安娜·佛洛伊德-防御机制与儿童精神分析.md"
+              },
+              {
+                "name": "哈特曼-无冲突自我领域与适应.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/04-自我心理学/哈特曼-无冲突自我领域与适应.md"
+              },
+              {
+                "name": "克恩伯格-客体关系整合与边缘人格.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/04-自我心理学/克恩伯格-客体关系整合与边缘人格.md"
+              },
+              {
+                "name": "马勒-分离-个体化.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/04-自我心理学/马勒-分离-个体化.md"
+              }
+            ]
+          },
+          {
+            "name": "05-客体关系理论",
+            "type": "folder",
+            "children": [
+              {
+                "name": "巴林特-基本缺陷与原始之爱.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/05-客体关系理论/巴林特-基本缺陷与原始之爱.md"
+              },
+              {
+                "name": "鲍尔比-依恋理论.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/05-客体关系理论/鲍尔比-依恋理论.md"
+              },
+              {
+                "name": "费尔贝恩-纯客体关系模型.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/05-客体关系理论/费尔贝恩-纯客体关系模型.md"
+              },
+              {
+                "name": "克莱因-1-游戏治疗.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/05-客体关系理论/克莱因-1-游戏治疗.md"
+              },
+              {
+                "name": "克莱因-2-偏执分裂位与抑郁位.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/05-客体关系理论/克莱因-2-偏执分裂位与抑郁位.md"
+              },
+              {
+                "name": "克莱因-3-投射性认同.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/05-客体关系理论/克莱因-3-投射性认同.md"
+              },
+              {
+                "name": "温尼科特-1-足够好的母亲与抱持.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/05-客体关系理论/温尼科特-1-足够好的母亲与抱持.md"
+              },
+              {
+                "name": "温尼科特-2-过渡性客体.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/05-客体关系理论/温尼科特-2-过渡性客体.md"
+              },
+              {
+                "name": "温尼科特-3-真假自体与客体使用.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/05-客体关系理论/温尼科特-3-真假自体与客体使用.md"
+              }
+            ]
+          },
+          {
+            "name": "06-自体心理学",
+            "type": "folder",
+            "children": [
+              {
+                "name": "科胡特-自体客体与三极自体.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/06-自体心理学/科胡特-自体客体与三极自体.md"
+              }
+            ]
+          },
+          {
+            "name": "07-拉康学派",
+            "type": "folder",
+            "children": [
+              {
+                "name": "拉康-1-镜像阶段与自我误认.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/07-拉康学派/拉康-1-镜像阶段与自我误认.md"
+              },
+              {
+                "name": "拉康-2-想象界象征界实在界.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/07-拉康学派/拉康-2-想象界象征界实在界.md"
+              },
+              {
+                "name": "拉康-3-欲望是他者的欲望.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/07-拉康学派/拉康-3-欲望是他者的欲望.md"
+              }
+            ]
+          },
+          {
+            "name": "08-关系精神分析",
+            "type": "folder",
+            "children": [
+              {
+                "name": "奥格登-分析第三方与梦的空间.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/08-关系精神分析/奥格登-分析第三方与梦的空间.md"
+              },
+              {
+                "name": "本杰明-主体间性与承认理论.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/08-关系精神分析/本杰明-主体间性与承认理论.md"
+              },
+              {
+                "name": "米切尔-关系矩阵与驱力批判.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/08-关系精神分析/米切尔-关系矩阵与驱力批判.md"
+              }
+            ]
+          },
+          {
+            "name": "09-新佛洛伊德主义与人际学派",
+            "type": "folder",
+            "children": [
+              {
+                "name": "比昂-容器与阿尔法贝塔元素.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/09-新佛洛伊德主义与人际学派/比昂-容器与阿尔法贝塔元素.md"
+              },
+              {
+                "name": "弗洛姆-社会性格与逃避自由.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/09-新佛洛伊德主义与人际学派/弗洛姆-社会性格与逃避自由.md"
+              },
+              {
+                "name": "霍妮-文化神经症与女性心理学.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/09-新佛洛伊德主义与人际学派/霍妮-文化神经症与女性心理学.md"
+              },
+              {
+                "name": "沙利文-人际精神分析.md",
+                "type": "file",
+                "path": "参考/精神分析理论谱系/09-新佛洛伊德主义与人际学派/沙利文-人际精神分析.md"
+              }
+            ]
+          },
+          {
+            "name": "00-新手入门总报告.md",
+            "type": "file",
+            "path": "参考/精神分析理论谱系/00-新手入门总报告.md"
+          },
+          {
+            "name": "README-资料索引.md",
+            "type": "file",
+            "path": "参考/精神分析理论谱系/README-资料索引.md"
+          }
+        ]
       },
       {
-        "name": "plugin-development.md",
-        "type": "file",
-        "path": "docs/plugin-development.md"
+        "name": "考研408-细读笔记",
+        "type": "folder",
+        "children": [
+          {
+            "name": "操作系统",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "1.1_1_操作系统的概念、功能.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/1/1.1_1_操作系统的概念、功能.md"
+                  },
+                  {
+                    "name": "1.1_2_操作系统的特征.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/1/1.1_2_操作系统的特征.md"
+                  },
+                  {
+                    "name": "1.2_操作系统的发展与分类.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/1/1.2_操作系统的发展与分类.md"
+                  },
+                  {
+                    "name": "1.3_1_操作系统的运行机制.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/1/1.3_1_操作系统的运行机制.md"
+                  },
+                  {
+                    "name": "1.3_2_中断和异常.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/1/1.3_2_中断和异常.md"
+                  },
+                  {
+                    "name": "1.3_3_系统调用.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/1/1.3_3_系统调用.md"
+                  },
+                  {
+                    "name": "1.4_1_操作系统体系结构（上）.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/1/1.4_1_操作系统体系结构（上）.md"
+                  },
+                  {
+                    "name": "1.4_2_操作系统体系结构（下）.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/1/1.4_2_操作系统体系结构（下）.md"
+                  },
+                  {
+                    "name": "1.5_操作系统引导.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/1/1.5_操作系统引导.md"
+                  },
+                  {
+                    "name": "1.6_虚拟机.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/1/1.6_虚拟机.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/1/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "2.1_1_进程的概念、组成、特征.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.1_1_进程的概念、组成、特征.md"
+                  },
+                  {
+                    "name": "2.1_2_进程的状态与转换、进程的组织.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.1_2_进程的状态与转换、进程的组织.md"
+                  },
+                  {
+                    "name": "2.1_3_进程控制.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.1_3_进程控制.md"
+                  },
+                  {
+                    "name": "2.1_4_进程通信.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.1_4_进程通信.md"
+                  },
+                  {
+                    "name": "2.1_5_线程的概念与特点.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.1_5_线程的概念与特点.md"
+                  },
+                  {
+                    "name": "2.1_6_线程的实现方式和多线程模型.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.1_6_线程的实现方式和多线程模型.md"
+                  },
+                  {
+                    "name": "2.1_7_线程的状态与转换.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.1_7_线程的状态与转换.md"
+                  },
+                  {
+                    "name": "2.2_1_调度的概念、层次.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.2_1_调度的概念、层次.md"
+                  },
+                  {
+                    "name": "2.2_2_进程调度的时机、切换与过程、方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.2_2_进程调度的时机、切换与过程、方式.md"
+                  },
+                  {
+                    "name": "2.2_3_调度器和闲逛进程.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.2_3_调度器和闲逛进程.md"
+                  },
+                  {
+                    "name": "2.2_4_调度算法的评价指标.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.2_4_调度算法的评价指标.md"
+                  },
+                  {
+                    "name": "2.2_5_调度算法_先来先服务、最短作业优先、最高响应比优先.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.2_5_调度算法_先来先服务、最短作业优先、最高响应比优先.md"
+                  },
+                  {
+                    "name": "2.2_6_调度算法_时间片轮转、优先级、多级反馈队列.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.2_6_调度算法_时间片轮转、优先级、多级反馈队列.md"
+                  },
+                  {
+                    "name": "2.2_7_调度算法_多级队列调度算法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.2_7_调度算法_多级队列调度算法.md"
+                  },
+                  {
+                    "name": "2.3_1_什么是进程同步、进程互斥.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_1_什么是进程同步、进程互斥.md"
+                  },
+                  {
+                    "name": "2.3_10_读者-写者问题.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_10_读者-写者问题.md"
+                  },
+                  {
+                    "name": "2.3_11_哲学家进餐问题.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_11_哲学家进餐问题.md"
+                  },
+                  {
+                    "name": "2.3_12_管程.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_12_管程.md"
+                  },
+                  {
+                    "name": "2.3_2_进程互斥的软件实现方法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_2_进程互斥的软件实现方法.md"
+                  },
+                  {
+                    "name": "2.3_3_进程互斥的硬件实现方法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_3_进程互斥的硬件实现方法.md"
+                  },
+                  {
+                    "name": "2.3_4_互斥锁.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_4_互斥锁.md"
+                  },
+                  {
+                    "name": "2.3_5_信号量机制.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_5_信号量机制.md"
+                  },
+                  {
+                    "name": "2.3_6_用信号量实现进程互斥、同步、前驱关系.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_6_用信号量实现进程互斥、同步、前驱关系.md"
+                  },
+                  {
+                    "name": "2.3_7_生产者-消费者问题.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_7_生产者-消费者问题.md"
+                  },
+                  {
+                    "name": "2.3_8_多生产者-多消费者.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_8_多生产者-多消费者.md"
+                  },
+                  {
+                    "name": "2.3_9_吸烟者问题.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.3_9_吸烟者问题.md"
+                  },
+                  {
+                    "name": "2.4_1_死锁的概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.4_1_死锁的概念.md"
+                  },
+                  {
+                    "name": "2.4_2_死锁的处理策略—预防死锁.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.4_2_死锁的处理策略—预防死锁.md"
+                  },
+                  {
+                    "name": "2.4_3_死锁的处理策略—避免死锁.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.4_3_死锁的处理策略—避免死锁.md"
+                  },
+                  {
+                    "name": "2.4_4_死锁的处理策略—死锁的检测与解除.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/2.4_4_死锁的处理策略—死锁的检测与解除.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/2/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "3",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "3.1_1_内存的基础知识.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.1_1_内存的基础知识.md"
+                  },
+                  {
+                    "name": "3.1_10_基本分段存储管理方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.1_10_基本分段存储管理方式.md"
+                  },
+                  {
+                    "name": "3.1_11_段页式管理方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.1_11_段页式管理方式.md"
+                  },
+                  {
+                    "name": "3.1_2_内存管理的概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.1_2_内存管理的概念.md"
+                  },
+                  {
+                    "name": "3.1_3_覆盖与交换.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.1_3_覆盖与交换.md"
+                  },
+                  {
+                    "name": "3.1_4_连续分配管理方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.1_4_连续分配管理方式.md"
+                  },
+                  {
+                    "name": "3.1_5_动态分区分配算法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.1_5_动态分区分配算法.md"
+                  },
+                  {
+                    "name": "3.1_6_基本分页存储管理的基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.1_6_基本分页存储管理的基本概念.md"
+                  },
+                  {
+                    "name": "3.1_7_基本地址变换机构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.1_7_基本地址变换机构.md"
+                  },
+                  {
+                    "name": "3.1_8_具有快表的地址变换机构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.1_8_具有快表的地址变换机构.md"
+                  },
+                  {
+                    "name": "3.1_9_两级页表.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.1_9_两级页表.md"
+                  },
+                  {
+                    "name": "3.2_1_虚拟内存的基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.2_1_虚拟内存的基本概念.md"
+                  },
+                  {
+                    "name": "3.2_2_请求分页管理方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.2_2_请求分页管理方式.md"
+                  },
+                  {
+                    "name": "3.2_3_页面置换算法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.2_3_页面置换算法.md"
+                  },
+                  {
+                    "name": "3.2_4_页面分配策略.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.2_4_页面分配策略.md"
+                  },
+                  {
+                    "name": "3.2_5_内存映射文件.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/3.2_5_内存映射文件.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/3/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "4",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "4.1_1_初识文件管理.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.1_1_初识文件管理.md"
+                  },
+                  {
+                    "name": "4.1_2_文件的逻辑结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.1_2_文件的逻辑结构.md"
+                  },
+                  {
+                    "name": "4.1_3_文件目录.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.1_3_文件目录.md"
+                  },
+                  {
+                    "name": "4.1_4_文件的物理结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.1_4_文件的物理结构.md"
+                  },
+                  {
+                    "name": "4.1_5_逻辑结构VS物理结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.1_5_逻辑结构VS物理结构.md"
+                  },
+                  {
+                    "name": "4.1_6_文件存储空间管理.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.1_6_文件存储空间管理.md"
+                  },
+                  {
+                    "name": "4.1_7_文件的基本操作.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.1_7_文件的基本操作.md"
+                  },
+                  {
+                    "name": "4.1_8_文件共享.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.1_8_文件共享.md"
+                  },
+                  {
+                    "name": "4.1_9_文件保护.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.1_9_文件保护.md"
+                  },
+                  {
+                    "name": "4.3_1_文件系统的层次结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.3_1_文件系统的层次结构.md"
+                  },
+                  {
+                    "name": "4.3_2_文件系统的全局结构（布局）.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.3_2_文件系统的全局结构（布局）.md"
+                  },
+                  {
+                    "name": "4.3_3_虚拟文件系统.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/4.3_3_虚拟文件系统.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/4/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "5",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "5.1_1_IO设备的基本概念和分类.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.1_1_IO设备的基本概念和分类.md"
+                  },
+                  {
+                    "name": "5.1_2_IO控制器.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.1_2_IO控制器.md"
+                  },
+                  {
+                    "name": "5.1_3_IO控制方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.1_3_IO控制方式.md"
+                  },
+                  {
+                    "name": "5.1_4_IO软件层次结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.1_4_IO软件层次结构.md"
+                  },
+                  {
+                    "name": "5.1_5_输入输出应用程序接口和驱动程序接口.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.1_5_输入输出应用程序接口和驱动程序接口.md"
+                  },
+                  {
+                    "name": "5.2_1_IO核心子系统.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.2_1_IO核心子系统.md"
+                  },
+                  {
+                    "name": "5.2_2_假脱机技术.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.2_2_假脱机技术.md"
+                  },
+                  {
+                    "name": "5.2_3_设备的分配与回收.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.2_3_设备的分配与回收.md"
+                  },
+                  {
+                    "name": "5.2_4_缓冲区管理.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.2_4_缓冲区管理.md"
+                  },
+                  {
+                    "name": "5.3_1_磁盘的结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.3_1_磁盘的结构.md"
+                  },
+                  {
+                    "name": "5.3_2_磁盘调度算法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.3_2_磁盘调度算法.md"
+                  },
+                  {
+                    "name": "5.3_3_减少磁盘延迟时间的方法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.3_3_减少磁盘延迟时间的方法.md"
+                  },
+                  {
+                    "name": "5.3_4_磁盘的管理.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.3_4_磁盘的管理.md"
+                  },
+                  {
+                    "name": "5.3_5_固态硬盘SSD.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/5.3_5_固态硬盘SSD.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/操作系统/5/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "README.md",
+                "type": "file",
+                "path": "参考/考研408-细读笔记/操作系统/README.md"
+              }
+            ]
+          },
+          {
+            "name": "计算机网络",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "1_1_计算机网络的概念与功能.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/1/1_1_计算机网络的概念与功能.md"
+                  },
+                  {
+                    "name": "1_2_计算机网络的组成与分类.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/1/1_2_计算机网络的组成与分类.md"
+                  },
+                  {
+                    "name": "1_3_性能指标.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/1/1_3_性能指标.md"
+                  },
+                  {
+                    "name": "1_4_分层结构与协议接口服务.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/1/1_4_分层结构与协议接口服务.md"
+                  },
+                  {
+                    "name": "1_5_OSI参考模型.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/1/1_5_OSI参考模型.md"
+                  },
+                  {
+                    "name": "1_6_TCP_IP参考模型与五层体系结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/1/1_6_TCP_IP参考模型与五层体系结构.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/1/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "2_1_物理层基本概念与数据通信基础.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/2/2_1_物理层基本概念与数据通信基础.md"
+                  },
+                  {
+                    "name": "2_2_奈氏准则与香农定理.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/2/2_2_奈氏准则与香农定理.md"
+                  },
+                  {
+                    "name": "2_3_编码与调制.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/2/2_3_编码与调制.md"
+                  },
+                  {
+                    "name": "2_4_数据交换方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/2/2_4_数据交换方式.md"
+                  },
+                  {
+                    "name": "2_5_传输介质与物理层设备.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/2/2_5_传输介质与物理层设备.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/2/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "3",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "3_1_数据链路层功能与封装成帧.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/3/3_1_数据链路层功能与封装成帧.md"
+                  },
+                  {
+                    "name": "3_10_IEEE802标准与MAC子层.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/3/3_10_IEEE802标准与MAC子层.md"
+                  },
+                  {
+                    "name": "3_2_差错控制_检错编码.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/3/3_2_差错控制_检错编码.md"
+                  },
+                  {
+                    "name": "3_3_差错控制_纠错编码与海明码.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/3/3_3_差错控制_纠错编码与海明码.md"
+                  },
+                  {
+                    "name": "3_4_流量控制与可靠传输机制.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/3/3_4_流量控制与可靠传输机制.md"
+                  },
+                  {
+                    "name": "3_5_信道划分介质访问控制.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/3/3_5_信道划分介质访问控制.md"
+                  },
+                  {
+                    "name": "3_6_ALOHA与CSMA协议.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/3/3_6_ALOHA与CSMA协议.md"
+                  },
+                  {
+                    "name": "3_7_CSMA_CD协议.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/3/3_7_CSMA_CD协议.md"
+                  },
+                  {
+                    "name": "3_8_CSMA_CA协议.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/3/3_8_CSMA_CA协议.md"
+                  },
+                  {
+                    "name": "3_9_局域网与以太网.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/3/3_9_局域网与以太网.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/3/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "4",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "4_1_网络层功能与SDN.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_1_网络层功能与SDN.md"
+                  },
+                  {
+                    "name": "4_10_IPv6协议.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_10_IPv6协议.md"
+                  },
+                  {
+                    "name": "4_11_IP组播与IGMP.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_11_IP组播与IGMP.md"
+                  },
+                  {
+                    "name": "4_12_内部网关协议_RIP.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_12_内部网关协议_RIP.md"
+                  },
+                  {
+                    "name": "4_13_内部网关协议_OSPF.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_13_内部网关协议_OSPF.md"
+                  },
+                  {
+                    "name": "4_14_边界网关协议_BGP.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_14_边界网关协议_BGP.md"
+                  },
+                  {
+                    "name": "4_2_IP数据报格式与分片.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_2_IP数据报格式与分片.md"
+                  },
+                  {
+                    "name": "4_3_IPv4地址分类与特殊地址.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_3_IPv4地址分类与特殊地址.md"
+                  },
+                  {
+                    "name": "4_4_子网划分与子网掩码.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_4_子网划分与子网掩码.md"
+                  },
+                  {
+                    "name": "4_5_CIDR与路由聚合.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_5_CIDR与路由聚合.md"
+                  },
+                  {
+                    "name": "4_6_NAT网络地址转换.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_6_NAT网络地址转换.md"
+                  },
+                  {
+                    "name": "4_7_ARP协议.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_7_ARP协议.md"
+                  },
+                  {
+                    "name": "4_8_ICMP协议.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_8_ICMP协议.md"
+                  },
+                  {
+                    "name": "4_9_DHCP协议.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/4_9_DHCP协议.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/4/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "5",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "5_1_传输层概述与端口.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/5/5_1_传输层概述与端口.md"
+                  },
+                  {
+                    "name": "5_2_UDP协议.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/5/5_2_UDP协议.md"
+                  },
+                  {
+                    "name": "5_3_TCP报文段格式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/5/5_3_TCP报文段格式.md"
+                  },
+                  {
+                    "name": "5_4_TCP连接管理.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/5/5_4_TCP连接管理.md"
+                  },
+                  {
+                    "name": "5_5_TCP可靠传输与流量控制.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/5/5_5_TCP可靠传输与流量控制.md"
+                  },
+                  {
+                    "name": "5_6_TCP拥塞控制.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/5/5_6_TCP拥塞控制.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/5/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "6",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "6_1_网络应用模型.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/6/6_1_网络应用模型.md"
+                  },
+                  {
+                    "name": "6_2_DNS域名系统.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/6/6_2_DNS域名系统.md"
+                  },
+                  {
+                    "name": "6_3_FTP文件传输协议.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/6/6_3_FTP文件传输协议.md"
+                  },
+                  {
+                    "name": "6_4_电子邮件系统.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/6/6_4_电子邮件系统.md"
+                  },
+                  {
+                    "name": "6_5_HTTP超文本传输协议.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/6/6_5_HTTP超文本传输协议.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机网络/6/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "README.md",
+                "type": "file",
+                "path": "参考/考研408-细读笔记/计算机网络/README.md"
+              }
+            ]
+          },
+          {
+            "name": "计算机组成原理",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "1.1_计算机的发展.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/1/1.1_计算机的发展.md"
+                  },
+                  {
+                    "name": "1.2_1_计算机硬件的基本组成.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/1/1.2_1_计算机硬件的基本组成.md"
+                  },
+                  {
+                    "name": "1.2_2_认识各个硬件部件.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/1/1.2_2_认识各个硬件部件.md"
+                  },
+                  {
+                    "name": "1.2_3_计算机系统的层次结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/1/1.2_3_计算机系统的层次结构.md"
+                  },
+                  {
+                    "name": "1.3_计算机的性能指标.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/1/1.3_计算机的性能指标.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/1/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": ".synctest.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/.synctest.md"
+                  },
+                  {
+                    "name": "2.1_3_无符号整数的表示和运算.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.1_3_无符号整数的表示和运算.md"
+                  },
+                  {
+                    "name": "2.1_4_带符号整数的表示和运算_原反补.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.1_4_带符号整数的表示和运算_原反补.md"
+                  },
+                  {
+                    "name": "2.1_5_原反补码的特性对比.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.1_5_原反补码的特性对比.md"
+                  },
+                  {
+                    "name": "2.1_6_移码.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.1_6_移码.md"
+                  },
+                  {
+                    "name": "2.1_7_定点小数.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.1_7_定点小数.md"
+                  },
+                  {
+                    "name": "2.1.1_进位计数制.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.1.1_进位计数制.md"
+                  },
+                  {
+                    "name": "2.1.2_BCD码.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.1.2_BCD码.md"
+                  },
+                  {
+                    "name": "2.2_0_奇偶校验码.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_0_奇偶校验码.md"
+                  },
+                  {
+                    "name": "2.2_1_电路的基本原理、加法器设计.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_1_电路的基本原理、加法器设计.md"
+                  },
+                  {
+                    "name": "2.2_2_并行进位加法器.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_2_并行进位加法器.md"
+                  },
+                  {
+                    "name": "2.2_3_补码加减运算器.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_3_补码加减运算器.md"
+                  },
+                  {
+                    "name": "2.2_4_标志位的生成.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_4_标志位的生成.md"
+                  },
+                  {
+                    "name": "2.2_5_定点数的移位运算.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_5_定点数的移位运算.md"
+                  },
+                  {
+                    "name": "2.2_6_乘法运算_补码一位乘法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_6_乘法运算_补码一位乘法.md"
+                  },
+                  {
+                    "name": "2.2_6_乘法运算_原码一位乘法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_6_乘法运算_原码一位乘法.md"
+                  },
+                  {
+                    "name": "2.2_7_除法运算_补码除法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_7_除法运算_补码除法.md"
+                  },
+                  {
+                    "name": "2.2_7_除法运算_原码除法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_7_除法运算_原码除法.md"
+                  },
+                  {
+                    "name": "2.2_8_C语言类型转换.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_8_C语言类型转换.md"
+                  },
+                  {
+                    "name": "2.2_9_数据的存储和排列.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.2_9_数据的存储和排列.md"
+                  },
+                  {
+                    "name": "2.3_1_浮点数的表示.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.3_1_浮点数的表示.md"
+                  },
+                  {
+                    "name": "2.3_2_IEEE 754.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.3_2_IEEE 754.md"
+                  },
+                  {
+                    "name": "2.3_3_浮点数的运算.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/2.3_3_浮点数的运算.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/2/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "3",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "3.1_存储系统基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.1_存储系统基本概念.md"
+                  },
+                  {
+                    "name": "3.2_1_主存储器的基本组成.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.2_1_主存储器的基本组成.md"
+                  },
+                  {
+                    "name": "3.2_2_SRAM和DRAM.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.2_2_SRAM和DRAM.md"
+                  },
+                  {
+                    "name": "3.2_3_只读存储器ROM.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.2_3_只读存储器ROM.md"
+                  },
+                  {
+                    "name": "3.3_1_主存储器与CPU的连接.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.3_1_主存储器与CPU的连接.md"
+                  },
+                  {
+                    "name": "3.3_2_双端口RAM和多模块存储器.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.3_2_双端口RAM和多模块存储器.md"
+                  },
+                  {
+                    "name": "3.4_1_磁盘存储器.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.4_1_磁盘存储器.md"
+                  },
+                  {
+                    "name": "3.4_2_固态硬盘SSD.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.4_2_固态硬盘SSD.md"
+                  },
+                  {
+                    "name": "3.5_1_Cache的基本概念和原理.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.5_1_Cache的基本概念和原理.md"
+                  },
+                  {
+                    "name": "3.5_2_Cache和主存的映射方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.5_2_Cache和主存的映射方式.md"
+                  },
+                  {
+                    "name": "3.5_3_Cache替换算法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.5_3_Cache替换算法.md"
+                  },
+                  {
+                    "name": "3.5_4_Cache写策略.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.5_4_Cache写策略.md"
+                  },
+                  {
+                    "name": "3.6_1_页式存储.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.6_1_页式存储.md"
+                  },
+                  {
+                    "name": "3.6_2_虚拟存储器.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/3.6_2_虚拟存储器.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/3/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "4",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "4.1_1_指令格式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.1_1_指令格式.md"
+                  },
+                  {
+                    "name": "4.1_2_扩展操作码指令格式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.1_2_扩展操作码指令格式.md"
+                  },
+                  {
+                    "name": "4.2_1_指令寻址.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.2_1_指令寻址.md"
+                  },
+                  {
+                    "name": "4.2_2_数据寻址.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.2_2_数据寻址.md"
+                  },
+                  {
+                    "name": "4.2_3_数据寻址2_偏移寻址.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.2_3_数据寻址2_偏移寻址.md"
+                  },
+                  {
+                    "name": "4.2_4_数据寻址3_堆栈寻址.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.2_4_数据寻址3_堆栈寻址.md"
+                  },
+                  {
+                    "name": "4.3_1_高级语言与机器级代码之间的对应.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.3_1_高级语言与机器级代码之间的对应.md"
+                  },
+                  {
+                    "name": "4.3_2_常用的x86汇编指令.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.3_2_常用的x86汇编指令.md"
+                  },
+                  {
+                    "name": "4.3_3_AT&T格式和Intel格式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.3_3_AT&T格式和Intel格式.md"
+                  },
+                  {
+                    "name": "4.3_4_选择语句的机器级表示.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.3_4_选择语句的机器级表示.md"
+                  },
+                  {
+                    "name": "4.3_5_循环语句的机器级表示.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.3_5_循环语句的机器级表示.md"
+                  },
+                  {
+                    "name": "4.3_6 函数调用的机器级表示.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.3_6 函数调用的机器级表示.md"
+                  },
+                  {
+                    "name": "4.4_CISC和RISC.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/4.4_CISC和RISC.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/4/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "5",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "5.0~5.1_CPU的功能和基本结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/5.0~5.1_CPU的功能和基本结构.md"
+                  },
+                  {
+                    "name": "5.2_指令周期的数据流.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/5.2_指令周期的数据流.md"
+                  },
+                  {
+                    "name": "5.3.1_数据通路-单总线结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/5.3.1_数据通路-单总线结构.md"
+                  },
+                  {
+                    "name": "5.3.2_数据通路-专用通路结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/5.3.2_数据通路-专用通路结构.md"
+                  },
+                  {
+                    "name": "5.4.1_硬布线控制器.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/5.4.1_硬布线控制器.md"
+                  },
+                  {
+                    "name": "5.4.2~5.4.4_微程序控制器.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/5.4.2~5.4.4_微程序控制器.md"
+                  },
+                  {
+                    "name": "5.6_1_指令流水线的基本概念和性能指标.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/5.6_1_指令流水线的基本概念和性能指标.md"
+                  },
+                  {
+                    "name": "5.6_2_指令流水线的影响因素和分类.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/5.6_2_指令流水线的影响因素和分类.md"
+                  },
+                  {
+                    "name": "5.6_3_五段式指令流水线.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/5.6_3_五段式指令流水线.md"
+                  },
+                  {
+                    "name": "5.7_1_多处理器的基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/5.7_1_多处理器的基本概念.md"
+                  },
+                  {
+                    "name": "5.7_2_硬件多线程的基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/5.7_2_硬件多线程的基本概念.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/5/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "6",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "6.1_1_总线概述.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/6/6.1_1_总线概述.md"
+                  },
+                  {
+                    "name": "6.1_2_总线的性能指标.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/6/6.1_2_总线的性能指标.md"
+                  },
+                  {
+                    "name": "6.2_总线仲裁（408可不考，简单了解即可）.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/6/6.2_总线仲裁（408可不考，简单了解即可）.md"
+                  },
+                  {
+                    "name": "6.3_总线操作和定时.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/6/6.3_总线操作和定时.md"
+                  },
+                  {
+                    "name": "6.4_总线标准（408不考，简单了解即可）.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/6/6.4_总线标准（408不考，简单了解即可）.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/6/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "7",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "7.1_1_输入输出系统和IO控制方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/7/7.1_1_输入输出系统和IO控制方式.md"
+                  },
+                  {
+                    "name": "7.1_2_外部设备.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/7/7.1_2_外部设备.md"
+                  },
+                  {
+                    "name": "7.2_IO接口.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/7/7.2_IO接口.md"
+                  },
+                  {
+                    "name": "7.3_1_程序查询方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/7/7.3_1_程序查询方式.md"
+                  },
+                  {
+                    "name": "7.3_2_中断的作用和原理.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/7/7.3_2_中断的作用和原理.md"
+                  },
+                  {
+                    "name": "7.3_3_多重中断.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/7/7.3_3_多重中断.md"
+                  },
+                  {
+                    "name": "7.3_4_程序中断方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/7/7.3_4_程序中断方式.md"
+                  },
+                  {
+                    "name": "7.3_5_DMA方式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/7/7.3_5_DMA方式.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/计算机组成原理/7/README.md"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "数据结构",
+            "type": "folder",
+            "children": [
+              {
+                "name": "1",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "1.0_开篇_数据结构在学什么.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/1/1.0_开篇_数据结构在学什么.md"
+                  },
+                  {
+                    "name": "1.1_数据结构的基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/1/1.1_数据结构的基本概念.md"
+                  },
+                  {
+                    "name": "1.2-1 算法的基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/1/1.2-1 算法的基本概念.md"
+                  },
+                  {
+                    "name": "1.2-2 算法的时间复杂度.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/1/1.2-2 算法的时间复杂度.md"
+                  },
+                  {
+                    "name": "1.2-3 算法的空间复杂度.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/1/1.2-3 算法的空间复杂度.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/1/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "2.1_线性表的定义和基本操作.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.1_线性表的定义和基本操作.md"
+                  },
+                  {
+                    "name": "2.2-1_顺序表的定义.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.2-1_顺序表的定义.md"
+                  },
+                  {
+                    "name": "2.2-2_顺序表的插入删除_1.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.2-2_顺序表的插入删除_1.md"
+                  },
+                  {
+                    "name": "2.2-2_顺序表的插入删除_2.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.2-2_顺序表的插入删除_2.md"
+                  },
+                  {
+                    "name": "2.2-3_顺序表的查找.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.2-3_顺序表的查找.md"
+                  },
+                  {
+                    "name": "2.3-1_单链表的定义.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.3-1_单链表的定义.md"
+                  },
+                  {
+                    "name": "2.3-2_单链表的插入删除_1.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.3-2_单链表的插入删除_1.md"
+                  },
+                  {
+                    "name": "2.3-2_单链表的插入删除_2.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.3-2_单链表的插入删除_2.md"
+                  },
+                  {
+                    "name": "2.3-3_单链表的查找.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.3-3_单链表的查找.md"
+                  },
+                  {
+                    "name": "2.3-4_单链表的建立.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.3-4_单链表的建立.md"
+                  },
+                  {
+                    "name": "2.3-5_双链表.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.3-5_双链表.md"
+                  },
+                  {
+                    "name": "2.3-6_循环链表.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.3-6_循环链表.md"
+                  },
+                  {
+                    "name": "2.3-7_静态链表.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.3-7_静态链表.md"
+                  },
+                  {
+                    "name": "2.3-8_顺序表和链表的比较.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/2.3-8_顺序表和链表的比较.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/2/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "3",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "3.1-1栈的基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.1-1栈的基本概念.md"
+                  },
+                  {
+                    "name": "3.1-2栈的顺序存储实现.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.1-2栈的顺序存储实现.md"
+                  },
+                  {
+                    "name": "3.1-3栈的链式存储实现.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.1-3栈的链式存储实现.md"
+                  },
+                  {
+                    "name": "3.2-1队列的基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.2-1队列的基本概念.md"
+                  },
+                  {
+                    "name": "3.2-2队列的顺序实现.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.2-2队列的顺序实现.md"
+                  },
+                  {
+                    "name": "3.2-3队列的链式实现.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.2-3队列的链式实现.md"
+                  },
+                  {
+                    "name": "3.2-4双端队列.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.2-4双端队列.md"
+                  },
+                  {
+                    "name": "3.3-1栈在括号匹配中的应用.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.3-1栈在括号匹配中的应用.md"
+                  },
+                  {
+                    "name": "3.3-2栈在表达式求值中的应用(上).md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.3-2栈在表达式求值中的应用(上).md"
+                  },
+                  {
+                    "name": "3.3-3栈在表达式求值中的应用(下).md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.3-3栈在表达式求值中的应用(下).md"
+                  },
+                  {
+                    "name": "3.3-4栈在递归中的应用.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.3-4栈在递归中的应用.md"
+                  },
+                  {
+                    "name": "3.3-5队列的应用.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.3-5队列的应用.md"
+                  },
+                  {
+                    "name": "3.4特殊矩阵的压缩存储.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/3.4特殊矩阵的压缩存储.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/3/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "4",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "4.1_1 串的定义和基本操作.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/4/4.1_1 串的定义和基本操作.md"
+                  },
+                  {
+                    "name": "4.1_2 串的存储结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/4/4.1_2 串的存储结构.md"
+                  },
+                  {
+                    "name": "4.2_1 朴素模式匹配算法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/4/4.2_1 朴素模式匹配算法.md"
+                  },
+                  {
+                    "name": "4.2_2 KMP算法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/4/4.2_2 KMP算法.md"
+                  },
+                  {
+                    "name": "4.2_3 求next数组.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/4/4.2_3 求next数组.md"
+                  },
+                  {
+                    "name": "4.2_4 KMP算法的进一步优化.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/4/4.2_4 KMP算法的进一步优化.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/4/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "5",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "5.1_1_树的定义和基本术语.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.1_1_树的定义和基本术语.md"
+                  },
+                  {
+                    "name": "5.1_2_树的性质.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.1_2_树的性质.md"
+                  },
+                  {
+                    "name": "5.2_1 二叉树的定义和基本术语.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.2_1 二叉树的定义和基本术语.md"
+                  },
+                  {
+                    "name": "5.2_2_二叉树的性质.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.2_2_二叉树的性质.md"
+                  },
+                  {
+                    "name": "5.2_3_二叉树的存储结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.2_3_二叉树的存储结构.md"
+                  },
+                  {
+                    "name": "5.3_1_二叉树的先中后序遍历.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.3_1_二叉树的先中后序遍历.md"
+                  },
+                  {
+                    "name": "5.3_2_二叉树的层次遍历.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.3_2_二叉树的层次遍历.md"
+                  },
+                  {
+                    "name": "5.3_3_由遍历序列构造二叉树.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.3_3_由遍历序列构造二叉树.md"
+                  },
+                  {
+                    "name": "5.3_4_线索二叉树的概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.3_4_线索二叉树的概念.md"
+                  },
+                  {
+                    "name": "5.3_5_二叉树的线索化.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.3_5_二叉树的线索化.md"
+                  },
+                  {
+                    "name": "5.3_6_在线索二叉树中找前驱后继.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.3_6_在线索二叉树中找前驱后继.md"
+                  },
+                  {
+                    "name": "5.4_1_树的存储结构.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.4_1_树的存储结构.md"
+                  },
+                  {
+                    "name": "5.4_2_树和森林的遍历.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.4_2_树和森林的遍历.md"
+                  },
+                  {
+                    "name": "5.5_1_哈夫曼树.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.5_1_哈夫曼树.md"
+                  },
+                  {
+                    "name": "5.5_2_并查集.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.5_2_并查集.md"
+                  },
+                  {
+                    "name": "5.5_3_并查集的进一步优化.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/5.5_3_并查集的进一步优化.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/5/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "6",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "6.1_1_图的基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.1_1_图的基本概念.md"
+                  },
+                  {
+                    "name": "6.2_1_邻接矩阵法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.2_1_邻接矩阵法.md"
+                  },
+                  {
+                    "name": "6.2_2_邻接表法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.2_2_邻接表法.md"
+                  },
+                  {
+                    "name": "6.2_3_十字链表、邻接多重表.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.2_3_十字链表、邻接多重表.md"
+                  },
+                  {
+                    "name": "6.2_4_图的基本操作.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.2_4_图的基本操作.md"
+                  },
+                  {
+                    "name": "6.3_1 图的广度优先遍历.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.3_1 图的广度优先遍历.md"
+                  },
+                  {
+                    "name": "6.3_2 图的深度优先遍历.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.3_2 图的深度优先遍历.md"
+                  },
+                  {
+                    "name": "6.4_1 最小生成树.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.4_1 最小生成树.md"
+                  },
+                  {
+                    "name": "6.4_2 最短路径问题_BFS算法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.4_2 最短路径问题_BFS算法.md"
+                  },
+                  {
+                    "name": "6.4_3 最短路径问题_Dijkstra算法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.4_3 最短路径问题_Dijkstra算法.md"
+                  },
+                  {
+                    "name": "6.4_4 最短路径问题_Floyd算法.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.4_4 最短路径问题_Floyd算法.md"
+                  },
+                  {
+                    "name": "6.4_5 有向无环图描述表达式.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.4_5 有向无环图描述表达式.md"
+                  },
+                  {
+                    "name": "6.4_6 拓扑排序.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.4_6 拓扑排序.md"
+                  },
+                  {
+                    "name": "6.4_7 关键路径.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/6.4_7 关键路径.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/6/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "7",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "7.1 查找的基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.1 查找的基本概念.md"
+                  },
+                  {
+                    "name": "7.2_1 顺序查找.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.2_1 顺序查找.md"
+                  },
+                  {
+                    "name": "7.2_2 折半查找.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.2_2 折半查找.md"
+                  },
+                  {
+                    "name": "7.2_3 分块查找.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.2_3 分块查找.md"
+                  },
+                  {
+                    "name": "7.3_1_二叉排序树.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.3_1_二叉排序树.md"
+                  },
+                  {
+                    "name": "7.3_2_平衡二叉树.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.3_2_平衡二叉树.md"
+                  },
+                  {
+                    "name": "7.3_3_平衡二叉树的删除.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.3_3_平衡二叉树的删除.md"
+                  },
+                  {
+                    "name": "7.3_4_红黑树的定义和性质.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.3_4_红黑树的定义和性质.md"
+                  },
+                  {
+                    "name": "7.3_5_红黑树的插入.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.3_5_红黑树的插入.md"
+                  },
+                  {
+                    "name": "7.3_6_红黑树的删除.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.3_6_红黑树的删除.md"
+                  },
+                  {
+                    "name": "7.4_1 B树.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.4_1 B树.md"
+                  },
+                  {
+                    "name": "7.4_2 B树的插入删除_1.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.4_2 B树的插入删除_1.md"
+                  },
+                  {
+                    "name": "7.4_2 B树的插入删除_2.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.4_2 B树的插入删除_2.md"
+                  },
+                  {
+                    "name": "7.4_3 B+树.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.4_3 B+树.md"
+                  },
+                  {
+                    "name": "7.5_1 散列查找(上).md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.5_1 散列查找(上).md"
+                  },
+                  {
+                    "name": "7.5_2 散列查找(下).md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/7.5_2 散列查找(下).md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/7/README.md"
+                  }
+                ]
+              },
+              {
+                "name": "8",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "8.1_排序的基本概念.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.1_排序的基本概念.md"
+                  },
+                  {
+                    "name": "8.2_1_插入排序.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.2_1_插入排序.md"
+                  },
+                  {
+                    "name": "8.2_2_希尔排序.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.2_2_希尔排序.md"
+                  },
+                  {
+                    "name": "8.3_1_冒泡排序.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.3_1_冒泡排序.md"
+                  },
+                  {
+                    "name": "8.3_2_快速排序.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.3_2_快速排序.md"
+                  },
+                  {
+                    "name": "8.4_1_简单选择排序.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.4_1_简单选择排序.md"
+                  },
+                  {
+                    "name": "8.4_2_堆排序.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.4_2_堆排序.md"
+                  },
+                  {
+                    "name": "8.4_3_堆的插入删除_1.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.4_3_堆的插入删除_1.md"
+                  },
+                  {
+                    "name": "8.4_3_堆的插入删除_2.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.4_3_堆的插入删除_2.md"
+                  },
+                  {
+                    "name": "8.5_1_归并排序.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.5_1_归并排序.md"
+                  },
+                  {
+                    "name": "8.5_2_基数排序.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.5_2_基数排序.md"
+                  },
+                  {
+                    "name": "8.7_1_外部排序.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.7_1_外部排序.md"
+                  },
+                  {
+                    "name": "8.7_2_败者树.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.7_2_败者树.md"
+                  },
+                  {
+                    "name": "8.7_3_置换-选择排序.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.7_3_置换-选择排序.md"
+                  },
+                  {
+                    "name": "8.7_4_最佳归并树.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/8.7_4_最佳归并树.md"
+                  },
+                  {
+                    "name": "README.md",
+                    "type": "file",
+                    "path": "参考/考研408-细读笔记/数据结构/8/README.md"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ocr_full",
+            "type": "folder",
+            "children": [
+              {
+                "name": "README.md",
+                "type": "file",
+                "path": "参考/考研408-细读笔记/ocr_full/README.md"
+              }
+            ]
+          },
+          {
+            "name": "_深化规范.md",
+            "type": "file",
+            "path": "参考/考研408-细读笔记/_深化规范.md"
+          },
+          {
+            "name": "README.md",
+            "type": "file",
+            "path": "参考/考研408-细读笔记/README.md"
+          }
+        ]
       },
       {
-        "name": "theme-customization.md",
+        "name": "神譜·希腊神话谱系",
+        "type": "folder",
+        "children": [
+          {
+            "name": "01-历史",
+            "type": "folder",
+            "children": [
+              {
+                "name": "01-00-总纲-赫西俄德与神譜的文本世界.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/01-历史/01-00-总纲-赫西俄德与神譜的文本世界.md"
+              },
+              {
+                "name": "01-01-赫西俄德与荷马-双星记.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/01-历史/01-01-赫西俄德与荷马-双星记.md"
+              },
+              {
+                "name": "01-02-缪斯颂与诗人权威.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/01-历史/01-02-缪斯颂与诗人权威.md"
+              },
+              {
+                "name": "01-03-文本流传史详论.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/01-历史/01-03-文本流传史详论.md"
+              },
+              {
+                "name": "01-04-工作与时日与名媛录.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/01-历史/01-04-工作与时日与名媛录.md"
+              }
+            ]
+          },
+          {
+            "name": "02-人物",
+            "type": "folder",
+            "children": [
+              {
+                "name": "02-00-总纲-诸神谱系全解.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-00-总纲-诸神谱系全解.md"
+              },
+              {
+                "name": "02-01-原始神-混沌夜与厄瑞玻斯.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-01-原始神-混沌夜与厄瑞玻斯.md"
+              },
+              {
+                "name": "02-02-盖亚与乌拉诺斯.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-02-盖亚与乌拉诺斯.md"
+              },
+              {
+                "name": "02-03-十二泰坦.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-03-十二泰坦.md"
+              },
+              {
+                "name": "02-04-克洛诺斯与瑞亚.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-04-克洛诺斯与瑞亚.md"
+              },
+              {
+                "name": "02-05-宙斯.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-05-宙斯.md"
+              },
+              {
+                "name": "02-06-赫拉与阿瑞斯家族.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-06-赫拉与阿瑞斯家族.md"
+              },
+              {
+                "name": "02-07-波塞冬与哈迪斯.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-07-波塞冬与哈迪斯.md"
+              },
+              {
+                "name": "02-08-得墨忒耳与珀耳塞福涅.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-08-得墨忒耳与珀耳塞福涅.md"
+              },
+              {
+                "name": "02-09-雅典娜.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-09-雅典娜.md"
+              },
+              {
+                "name": "02-10-阿波罗与阿耳忒弥斯.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-10-阿波罗与阿耳忒弥斯.md"
+              },
+              {
+                "name": "02-11-阿佛洛狄忒.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-11-阿佛洛狄忒.md"
+              },
+              {
+                "name": "02-12-赫尔墨斯与狄俄尼索斯.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-12-赫尔墨斯与狄俄尼索斯.md"
+              },
+              {
+                "name": "02-13-普罗米修斯与伊阿珀托斯诸子.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-13-普罗米修斯与伊阿珀托斯诸子.md"
+              },
+              {
+                "name": "02-14-厄庇墨透斯与潘多拉.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-14-厄庇墨透斯与潘多拉.md"
+              },
+              {
+                "name": "02-15-文艺与拟人神族.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-15-文艺与拟人神族.md"
+              },
+              {
+                "name": "02-16-海洋诸神.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-16-海洋诸神.md"
+              },
+              {
+                "name": "02-17-赫卡忒与斯提克斯.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-17-赫卡忒与斯提克斯.md"
+              },
+              {
+                "name": "02-18-怪物谱系.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-18-怪物谱系.md"
+              },
+              {
+                "name": "02-19-英雄谱系与名媛录.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/02-人物/02-19-英雄谱系与名媛录.md"
+              }
+            ]
+          },
+          {
+            "name": "03-传说",
+            "type": "folder",
+            "children": [
+              {
+                "name": "03-00-总纲-创世与代际继承神话叙述.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/03-传说/03-00-总纲-创世与代际继承神话叙述.md"
+              },
+              {
+                "name": "03-01-宇宙起源详论.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/03-传说/03-01-宇宙起源详论.md"
+              },
+              {
+                "name": "03-02-继承神话总论.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/03-传说/03-02-继承神话总论.md"
+              },
+              {
+                "name": "03-03-乌拉诺斯阉割与克洛诺斯吞子.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/03-传说/03-03-乌拉诺斯阉割与克洛诺斯吞子.md"
+              },
+              {
+                "name": "03-04-泰坦之战与宇宙地理.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/03-传说/03-04-泰坦之战与宇宙地理.md"
+              },
+              {
+                "name": "03-05-堤丰之战.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/03-传说/03-05-堤丰之战.md"
+              },
+              {
+                "name": "03-06-普罗米修斯三部曲与潘多拉.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/03-传说/03-06-普罗米修斯三部曲与潘多拉.md"
+              },
+              {
+                "name": "03-07-赫西俄德与荷马俄耳甫斯的神話版本比较.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/03-传说/03-07-赫西俄德与荷马俄耳甫斯的神話版本比较.md"
+              }
+            ]
+          },
+          {
+            "name": "04-文化脉络·源头",
+            "type": "folder",
+            "children": [
+              {
+                "name": "04-00-总纲-巫术祭祀时代与近东前身.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/04-文化脉络·源头/04-00-总纲-巫术祭祀时代与近东前身.md"
+              },
+              {
+                "name": "04-01-迈锡尼宗教.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/04-文化脉络·源头/04-01-迈锡尼宗教.md"
+              },
+              {
+                "name": "04-02-米诺斯宗教.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/04-文化脉络·源头/04-02-米诺斯宗教.md"
+              },
+              {
+                "name": "04-03-祭祀与牺牲体系.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/04-文化脉络·源头/04-03-祭祀与牺牲体系.md"
+              },
+              {
+                "name": "04-04-巫术秘仪与神譜.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/04-文化脉络·源头/04-04-巫术秘仪与神譜.md"
+              },
+              {
+                "name": "04-05-近东影响总论与传播机制.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/04-文化脉络·源头/04-05-近东影响总论与传播机制.md"
+              },
+              {
+                "name": "04-06-库马尔比循环与埃努玛埃利什.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/04-文化脉络·源头/04-06-库马尔比循环与埃努玛埃利什.md"
+              },
+              {
+                "name": "04-07-印欧共同遗产.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/04-文化脉络·源头/04-07-印欧共同遗产.md"
+              },
+              {
+                "name": "04-08-俄耳甫斯教与德维尼纸草.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/04-文化脉络·源头/04-08-俄耳甫斯教与德维尼纸草.md"
+              },
+              {
+                "name": "04-09-地方崇拜的泛希腊化.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/04-文化脉络·源头/04-09-地方崇拜的泛希腊化.md"
+              }
+            ]
+          },
+          {
+            "name": "05-文化脉络·未来",
+            "type": "folder",
+            "children": [
+              {
+                "name": "05-00-总纲-罗马化希腊神话与接受史.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/05-文化脉络·未来/05-00-总纲-罗马化希腊神话与接受史.md"
+              },
+              {
+                "name": "05-01-罗马宗教与Interpretatio Romana.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/05-文化脉络·未来/05-01-罗马宗教与Interpretatio Romana.md"
+              },
+              {
+                "name": "05-02-奥维德变形记的神譜改写.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/05-文化脉络·未来/05-02-奥维德变形记的神譜改写.md"
+              },
+              {
+                "name": "05-03-维吉尔西塞罗卢克莱修-罗马思想的三副面孔.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/05-文化脉络·未来/05-03-维吉尔西塞罗卢克莱修-罗马思想的三副面孔.md"
+              },
+              {
+                "name": "05-04-欧赫墨罗斯主义.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/05-文化脉络·未来/05-04-欧赫墨罗斯主义.md"
+              },
+              {
+                "name": "05-05-希腊化神话编纂家.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/05-文化脉络·未来/05-05-希腊化神话编纂家.md"
+              },
+              {
+                "name": "05-06-基督教护教传统.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/05-文化脉络·未来/05-06-基督教护教传统.md"
+              },
+              {
+                "name": "05-07-拜占庭存续.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/05-文化脉络·未来/05-07-拜占庭存续.md"
+              },
+              {
+                "name": "05-08-文艺复兴复兴.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/05-文化脉络·未来/05-08-文艺复兴复兴.md"
+              },
+              {
+                "name": "05-09-艺术与现代大众接受.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/05-文化脉络·未来/05-09-艺术与现代大众接受.md"
+              }
+            ]
+          },
+          {
+            "name": "06-思想·跨域",
+            "type": "folder",
+            "children": [
+              {
+                "name": "06-01-神譜与自然哲学-前苏格拉底.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/06-思想·跨域/06-01-神譜与自然哲学-前苏格拉底.md"
+              },
+              {
+                "name": "06-02-正义观-狄刻与宙斯法序.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/06-思想·跨域/06-02-正义观-狄刻与宙斯法序.md"
+              },
+              {
+                "name": "06-03-缪斯与诗学真理.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/06-思想·跨域/06-03-缪斯与诗学真理.md"
+              },
+              {
+                "name": "06-04-神话解释学-寓意解经传统.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/06-思想·跨域/06-04-神话解释学-寓意解经传统.md"
+              },
+              {
+                "name": "06-05-性别视角.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/06-思想·跨域/06-05-性别视角.md"
+              },
+              {
+                "name": "06-06-神譜与城邦政治.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/06-思想·跨域/06-06-神譜与城邦政治.md"
+              },
+              {
+                "name": "06-07-悲剧与抒情诗中的神譜素材.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/06-思想·跨域/06-07-悲剧与抒情诗中的神譜素材.md"
+              },
+              {
+                "name": "06-08-时间与黄金时代.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/06-思想·跨域/06-08-时间与黄金时代.md"
+              },
+              {
+                "name": "06-09-赫西俄德研究史.md",
+                "type": "file",
+                "path": "参考/神譜·希腊神话谱系/06-思想·跨域/06-09-赫西俄德研究史.md"
+              }
+            ]
+          },
+          {
+            "name": "00-汇总文件-神譜导读与资料索引.md",
+            "type": "file",
+            "path": "参考/神譜·希腊神话谱系/00-汇总文件-神譜导读与资料索引.md"
+          }
+        ]
+      },
+      {
+        "name": "数据结构",
+        "type": "folder",
+        "children": [
+          {
+            "name": "第1章_绪论",
+            "type": "folder",
+            "children": [
+              {
+                "name": "时间复杂度和空间复杂度.md",
+                "type": "file",
+                "path": "参考/数据结构/第1章_绪论/时间复杂度和空间复杂度.md"
+              }
+            ]
+          },
+          {
+            "name": "第2章_线性表",
+            "type": "folder",
+            "children": [
+              {
+                "name": "01_线性表的定义和基本操作.md",
+                "type": "file",
+                "path": "参考/数据结构/第2章_线性表/01_线性表的定义和基本操作.md"
+              },
+              {
+                "name": "02_线性表的顺序表现.md",
+                "type": "file",
+                "path": "参考/数据结构/第2章_线性表/02_线性表的顺序表现.md"
+              },
+              {
+                "name": "03_线性表的链式表示.md",
+                "type": "file",
+                "path": "参考/数据结构/第2章_线性表/03_线性表的链式表示.md"
+              }
+            ]
+          },
+          {
+            "name": "第3章_栈、队列和数组",
+            "type": "folder",
+            "children": [
+              {
+                "name": "01_栈.md",
+                "type": "file",
+                "path": "参考/数据结构/第3章_栈、队列和数组/01_栈.md"
+              },
+              {
+                "name": "02_队列.md",
+                "type": "file",
+                "path": "参考/数据结构/第3章_栈、队列和数组/02_队列.md"
+              },
+              {
+                "name": "03_栈和队列的应用.md",
+                "type": "file",
+                "path": "参考/数据结构/第3章_栈、队列和数组/03_栈和队列的应用.md"
+              },
+              {
+                "name": "04_数组和特殊矩阵.md",
+                "type": "file",
+                "path": "参考/数据结构/第3章_栈、队列和数组/04_数组和特殊矩阵.md"
+              }
+            ]
+          },
+          {
+            "name": "第4章_串",
+            "type": "folder",
+            "children": [
+              {
+                "name": "01_串的定义和实现.md",
+                "type": "file",
+                "path": "参考/数据结构/第4章_串/01_串的定义和实现.md"
+              },
+              {
+                "name": "02_串的模式匹配.md",
+                "type": "file",
+                "path": "参考/数据结构/第4章_串/02_串的模式匹配.md"
+              }
+            ]
+          },
+          {
+            "name": "第5章_树与二叉树",
+            "type": "folder",
+            "children": [
+              {
+                "name": "01_树的基本概念.md",
+                "type": "file",
+                "path": "参考/数据结构/第5章_树与二叉树/01_树的基本概念.md"
+              },
+              {
+                "name": "02_二叉树的概念.md",
+                "type": "file",
+                "path": "参考/数据结构/第5章_树与二叉树/02_二叉树的概念.md"
+              },
+              {
+                "name": "03_二叉树的遍历和线索二叉树.md",
+                "type": "file",
+                "path": "参考/数据结构/第5章_树与二叉树/03_二叉树的遍历和线索二叉树.md"
+              },
+              {
+                "name": "04_树、森林.md",
+                "type": "file",
+                "path": "参考/数据结构/第5章_树与二叉树/04_树、森林.md"
+              },
+              {
+                "name": "05_树与二叉树的应用.md",
+                "type": "file",
+                "path": "参考/数据结构/第5章_树与二叉树/05_树与二叉树的应用.md"
+              }
+            ]
+          },
+          {
+            "name": "第6章_图",
+            "type": "folder",
+            "children": [
+              {
+                "name": "01_图的基本概念.md",
+                "type": "file",
+                "path": "参考/数据结构/第6章_图/01_图的基本概念.md"
+              },
+              {
+                "name": "02_图的存储及基本操作.md",
+                "type": "file",
+                "path": "参考/数据结构/第6章_图/02_图的存储及基本操作.md"
+              },
+              {
+                "name": "03_图的遍历.md",
+                "type": "file",
+                "path": "参考/数据结构/第6章_图/03_图的遍历.md"
+              },
+              {
+                "name": "04_图的应用.md",
+                "type": "file",
+                "path": "参考/数据结构/第6章_图/04_图的应用.md"
+              }
+            ]
+          },
+          {
+            "name": "第7章_查找",
+            "type": "folder",
+            "children": [
+              {
+                "name": "01_查找的基本概念.md",
+                "type": "file",
+                "path": "参考/数据结构/第7章_查找/01_查找的基本概念.md"
+              },
+              {
+                "name": "02_顺序查找和折半查找.md",
+                "type": "file",
+                "path": "参考/数据结构/第7章_查找/02_顺序查找和折半查找.md"
+              },
+              {
+                "name": "03_树形查找.md",
+                "type": "file",
+                "path": "参考/数据结构/第7章_查找/03_树形查找.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "iris文化譜系",
+        "type": "folder",
+        "children": [
+          {
+            "name": "research_wave2",
+            "type": "folder",
+            "children": [
+              {
+                "name": "africa.md",
+                "type": "file",
+                "path": "参考/iris文化譜系/research_wave2/africa.md"
+              },
+              {
+                "name": "americas-pacific.md",
+                "type": "file",
+                "path": "参考/iris文化譜系/research_wave2/americas-pacific.md"
+              },
+              {
+                "name": "central-east-europe.md",
+                "type": "file",
+                "path": "参考/iris文化譜系/research_wave2/central-east-europe.md"
+              },
+              {
+                "name": "mainstream-depth.md",
+                "type": "file",
+                "path": "参考/iris文化譜系/research_wave2/mainstream-depth.md"
+              },
+              {
+                "name": "mediterranean.md",
+                "type": "file",
+                "path": "参考/iris文化譜系/research_wave2/mediterranean.md"
+              },
+              {
+                "name": "middle-east.md",
+                "type": "file",
+                "path": "参考/iris文化譜系/research_wave2/middle-east.md"
+              },
+              {
+                "name": "nordic.md",
+                "type": "file",
+                "path": "参考/iris文化譜系/research_wave2/nordic.md"
+              },
+              {
+                "name": "south-asia.md",
+                "type": "file",
+                "path": "参考/iris文化譜系/research_wave2/south-asia.md"
+              },
+              {
+                "name": "southeast-asia.md",
+                "type": "file",
+                "path": "参考/iris文化譜系/research_wave2/southeast-asia.md"
+              },
+              {
+                "name": "themes.md",
+                "type": "file",
+                "path": "参考/iris文化譜系/research_wave2/themes.md"
+              }
+            ]
+          },
+          {
+            "name": "DEEP_RESEARCH_IRIS_LITERATURE.md",
+            "type": "file",
+            "path": "参考/iris文化譜系/DEEP_RESEARCH_IRIS_LITERATURE.md"
+          }
+        ]
+      },
+      {
+        "name": "pdf",
+        "type": "folder",
+        "children": [
+          {
+            "name": "821",
+            "type": "folder",
+            "children": [
+              {
+                "name": "821单选题-21至80题.md",
+                "type": "file",
+                "path": "参考/pdf/821/821单选题-21至80题.md"
+              },
+              {
+                "name": "821单选题-81至165题.md",
+                "type": "file",
+                "path": "参考/pdf/821/821单选题-81至165题.md"
+              },
+              {
+                "name": "821多选题-1至70题.md",
+                "type": "file",
+                "path": "参考/pdf/821/821多选题-1至70题.md"
+              },
+              {
+                "name": "821多选题-71至143题.md",
+                "type": "file",
+                "path": "参考/pdf/821/821多选题-71至143题.md"
+              },
+              {
+                "name": "821多选题整理.md",
+                "type": "file",
+                "path": "参考/pdf/821/821多选题整理.md"
+              },
+              {
+                "name": "821判断题-1至70题.md",
+                "type": "file",
+                "path": "参考/pdf/821/821判断题-1至70题.md"
+              },
+              {
+                "name": "821判断题-71至136题.md",
+                "type": "file",
+                "path": "参考/pdf/821/821判断题-71至136题.md"
+              },
+              {
+                "name": "821d题目集.md",
+                "type": "file",
+                "path": "参考/pdf/821/821d题目集.md"
+              },
+              {
+                "name": "821dd多选题集.md",
+                "type": "file",
+                "path": "参考/pdf/821/821dd多选题集.md"
+              },
+              {
+                "name": "821l连线题集.md",
+                "type": "file",
+                "path": "参考/pdf/821/821l连线题集.md"
+              },
+              {
+                "name": "821t填空题集.md",
+                "type": "file",
+                "path": "参考/pdf/821/821t填空题集.md"
+              },
+              {
+                "name": "821y判断题集.md",
+                "type": "file",
+                "path": "参考/pdf/821/821y判断题集.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "计算机操作系统-汤小丹.md",
         "type": "file",
-        "path": "docs/theme-customization.md"
+        "path": "参考/计算机操作系统-汤小丹.md"
+      },
+      {
+        "name": "计算机网络-谢希仁.md",
+        "type": "file",
+        "path": "参考/计算机网络-谢希仁.md"
+      },
+      {
+        "name": "计算机组成与系统结构-袁春风.md",
+        "type": "file",
+        "path": "参考/计算机组成与系统结构-袁春风.md"
+      },
+      {
+        "name": "数据结构-严蔚敏.md",
+        "type": "file",
+        "path": "参考/数据结构-严蔚敏.md"
+      },
+      {
+        "name": "王道2026操作系统.md",
+        "type": "file",
+        "path": "参考/王道2026操作系统.md"
+      },
+      {
+        "name": "王道2026计算机网络.md",
+        "type": "file",
+        "path": "参考/王道2026计算机网络.md"
+      },
+      {
+        "name": "王道2026计算机组成原理.md",
+        "type": "file",
+        "path": "参考/王道2026计算机组成原理.md"
+      },
+      {
+        "name": "王道2026数据结构.md",
+        "type": "file",
+        "path": "参考/王道2026数据结构.md"
       }
     ]
   },
   {
-    "name": "readme-dev.md",
-    "type": "file",
-    "path": "readme-dev.md"
+    "name": "计算机网络考研软考和华为认证",
+    "type": "folder",
+    "children": [
+      {
+        "name": "1.计算机网络体系结构",
+        "type": "folder",
+        "children": [
+          {
+            "name": "1.1-NPEE-计算机体系结构.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/1.计算机网络体系结构/1.1-NPEE-计算机体系结构.md"
+          },
+          {
+            "name": "1.2-NPEE-计算机网络性能指标的计算.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/1.计算机网络体系结构/1.2-NPEE-计算机网络性能指标的计算.md"
+          }
+        ]
+      },
+      {
+        "name": "2.物理层",
+        "type": "folder",
+        "children": [
+          {
+            "name": "2.1-NPEE-概述.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/2.物理层/2.1-NPEE-概述.md"
+          },
+          {
+            "name": "2.2-NPEE-SE-传输介质.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/2.物理层/2.2-NPEE-SE-传输介质.md"
+          },
+          {
+            "name": "2.3-SE-EX-信号的一些性质.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/2.物理层/2.3-SE-EX-信号的一些性质.md"
+          },
+          {
+            "name": "2.4-NPEE-SE-物理层设备.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/2.物理层/2.4-NPEE-SE-物理层设备.md"
+          }
+        ]
+      },
+      {
+        "name": "3.数据链路层",
+        "type": "folder",
+        "children": [
+          {
+            "name": "3.1-NPEE-概述.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/3.数据链路层/3.1-NPEE-概述.md"
+          },
+          {
+            "name": "3.2-NPEE-SE-链路层性质详解.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/3.数据链路层/3.2-NPEE-SE-链路层性质详解.md"
+          },
+          {
+            "name": "3.3-NPEE-流量控制与可靠传输.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/3.数据链路层/3.3-NPEE-流量控制与可靠传输.md"
+          },
+          {
+            "name": "3.4-NPEE-SE-介质访问控制.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/3.数据链路层/3.4-NPEE-SE-介质访问控制.md"
+          },
+          {
+            "name": "3.5-NPEE-SE-局域网和令牌环.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/3.数据链路层/3.5-NPEE-SE-局域网和令牌环.md"
+          },
+          {
+            "name": "3.6-NPEE-SE-链路层设备.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/3.数据链路层/3.6-NPEE-SE-链路层设备.md"
+          },
+          {
+            "name": "3.6-SE-IA-STP生成树协议.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/3.数据链路层/3.6-SE-IA-STP生成树协议.md"
+          },
+          {
+            "name": "3.7-SE-IA-链路聚合.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/3.数据链路层/3.7-SE-IA-链路聚合.md"
+          },
+          {
+            "name": "3.7-SE-IA-PPP协议.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/3.数据链路层/3.7-SE-IA-PPP协议.md"
+          }
+        ]
+      },
+      {
+        "name": "4.网络层",
+        "type": "folder",
+        "children": [
+          {
+            "name": "4.1-NPEE-网络层概述与SDN.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/4.网络层/4.1-NPEE-网络层概述与SDN.md"
+          },
+          {
+            "name": "4.2-NPEE-SE-IA-⽹际协议IP.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/4.网络层/4.2-NPEE-SE-IA-⽹际协议IP.md"
+          },
+          {
+            "name": "4.2p1.IMP-子网划分专题.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/4.网络层/4.2p1.IMP-子网划分专题.md"
+          },
+          {
+            "name": "4.3-NPEE-移动网络.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/4.网络层/4.3-NPEE-移动网络.md"
+          },
+          {
+            "name": "4.4-NPEE-SE-IA-路由算法和路由协议.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/4.网络层/4.4-NPEE-SE-IA-路由算法和路由协议.md"
+          },
+          {
+            "name": "4.5-NPEE-IP传播和IGMP协议.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/4.网络层/4.5-NPEE-IP传播和IGMP协议.md"
+          }
+        ]
+      },
+      {
+        "name": "5.传输层",
+        "type": "folder",
+        "children": [
+          {
+            "name": "5.1-NPEE-传输层概述与TCP-UDP简介.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/5.传输层/5.1-NPEE-传输层概述与TCP-UDP简介.md"
+          },
+          {
+            "name": "5.2-NPEE-TCP流量控制和拥塞控制.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/5.传输层/5.2-NPEE-TCP流量控制和拥塞控制.md"
+          }
+        ]
+      },
+      {
+        "name": "6.应用层",
+        "type": "folder",
+        "children": [
+          {
+            "name": "6.1-NPEE-关于应用层的一切.md",
+            "type": "file",
+            "path": "计算机网络考研软考和华为认证/6.应用层/6.1-NPEE-关于应用层的一切.md"
+          }
+        ]
+      },
+      {
+        "name": "0.说明.md",
+        "type": "file",
+        "path": "计算机网络考研软考和华为认证/0.说明.md"
+      }
+    ]
+  },
+  {
+    "name": "考研英语词汇",
+    "type": "folder",
+    "children": [
+      {
+        "name": "Day1.md",
+        "type": "file",
+        "path": "考研英语词汇/Day1.md"
+      },
+      {
+        "name": "Day2.md",
+        "type": "file",
+        "path": "考研英语词汇/Day2.md"
+      },
+      {
+        "name": "Day3.md",
+        "type": "file",
+        "path": "考研英语词汇/Day3.md"
+      }
+    ]
+  },
+  {
+    "name": "软考中级网络工程",
+    "type": "folder",
+    "children": [
+      {
+        "name": "0.说明.md",
+        "type": "file",
+        "path": "软考中级网络工程/0.说明.md"
+      },
+      {
+        "name": "1.0-计算机网络基础.md",
+        "type": "file",
+        "path": "软考中级网络工程/1.0-计算机网络基础.md"
+      },
+      {
+        "name": "10.0-Windows Server与UOS Linux操作系统.md",
+        "type": "file",
+        "path": "软考中级网络工程/10.0-Windows Server与UOS Linux操作系统.md"
+      },
+      {
+        "name": "10.1-应用服务配置与章节梳理.md",
+        "type": "file",
+        "path": "软考中级网络工程/10.1-应用服务配置与章节梳理.md"
+      },
+      {
+        "name": "11.0-设备基础配置与VLAN配置.md",
+        "type": "file",
+        "path": "软考中级网络工程/11.0-设备基础配置与VLAN配置.md"
+      },
+      {
+        "name": "11.1-链路聚合、交换机安全与STP配置.md",
+        "type": "file",
+        "path": "软考中级网络工程/11.1-链路聚合、交换机安全与STP配置.md"
+      },
+      {
+        "name": "11.2-多臂路由、DHCP与路由配置.md",
+        "type": "file",
+        "path": "软考中级网络工程/11.2-多臂路由、DHCP与路由配置.md"
+      },
+      {
+        "name": "11.3-ACL、NAT与IPSec VPN配置.md",
+        "type": "file",
+        "path": "软考中级网络工程/11.3-ACL、NAT与IPSec VPN配置.md"
+      },
+      {
+        "name": "11.4-章节小结与考点梳理.md",
+        "type": "file",
+        "path": "软考中级网络工程/11.4-章节小结与考点梳理.md"
+      },
+      {
+        "name": "12.0-存储基本概念与RAID技术.md",
+        "type": "file",
+        "path": "软考中级网络工程/12.0-存储基本概念与RAID技术.md"
+      },
+      {
+        "name": "12.1-网络存储方案、数据备份与恢复.md",
+        "type": "file",
+        "path": "软考中级网络工程/12.1-网络存储方案、数据备份与恢复.md"
+      },
+      {
+        "name": "13.0-网络管理基础与操作系统管理命令.md",
+        "type": "file",
+        "path": "软考中级网络工程/13.0-网络管理基础与操作系统管理命令.md"
+      },
+      {
+        "name": "13.1-网络故障诊断与排查.md",
+        "type": "file",
+        "path": "软考中级网络工程/13.1-网络故障诊断与排查.md"
+      },
+      {
+        "name": "14.0-企业网设备与局域网组建.md",
+        "type": "file",
+        "path": "软考中级网络工程/14.0-企业网设备与局域网组建.md"
+      },
+      {
+        "name": "14.1-企业网DHCP、路由与防火墙配置.md",
+        "type": "file",
+        "path": "软考中级网络工程/14.1-企业网DHCP、路由与防火墙配置.md"
+      },
+      {
+        "name": "15.0-报文封装与转发过程.md",
+        "type": "file",
+        "path": "软考中级网络工程/15.0-报文封装与转发过程.md"
+      },
+      {
+        "name": "15.1-交换机与路由器工作流程.md",
+        "type": "file",
+        "path": "软考中级网络工程/15.1-交换机与路由器工作流程.md"
+      },
+      {
+        "name": "16.0-各厂商网络设备配置对比.md",
+        "type": "file",
+        "path": "软考中级网络工程/16.0-各厂商网络设备配置对比.md"
+      },
+      {
+        "name": "17.0-软考选择题真题解析（一）.md",
+        "type": "file",
+        "path": "软考中级网络工程/17.0-软考选择题真题解析（一）.md"
+      },
+      {
+        "name": "17.1-软考选择题真题解析（二）.md",
+        "type": "file",
+        "path": "软考中级网络工程/17.1-软考选择题真题解析（二）.md"
+      },
+      {
+        "name": "2.0-通信原理基础.md",
+        "type": "file",
+        "path": "软考中级网络工程/2.0-通信原理基础.md"
+      },
+      {
+        "name": "2.1-信道特性.md",
+        "type": "file",
+        "path": "软考中级网络工程/2.1-信道特性.md"
+      },
+      {
+        "name": "2.2-编码与调制.md",
+        "type": "file",
+        "path": "软考中级网络工程/2.2-编码与调制.md"
+      },
+      {
+        "name": "2.3-差错控制.md",
+        "type": "file",
+        "path": "软考中级网络工程/2.3-差错控制.md"
+      },
+      {
+        "name": "3.0-局域网技术概论.md",
+        "type": "file",
+        "path": "软考中级网络工程/3.0-局域网技术概论.md"
+      },
+      {
+        "name": "3.1-以太网技术.md",
+        "type": "file",
+        "path": "软考中级网络工程/3.1-以太网技术.md"
+      },
+      {
+        "name": "3.2-虚拟局域网与生成树协议.md",
+        "type": "file",
+        "path": "软考中级网络工程/3.2-虚拟局域网与生成树协议.md"
+      },
+      {
+        "name": "4.0-蜂窝移动通信系统.md",
+        "type": "file",
+        "path": "软考中级网络工程/4.0-蜂窝移动通信系统.md"
+      },
+      {
+        "name": "4.1-无线局域网.md",
+        "type": "file",
+        "path": "软考中级网络工程/4.1-无线局域网.md"
+      },
+      {
+        "name": "4.2-无线个域网.md",
+        "type": "file",
+        "path": "软考中级网络工程/4.2-无线个域网.md"
+      },
+      {
+        "name": "5.0-网页访问服务.md",
+        "type": "file",
+        "path": "软考中级网络工程/5.0-网页访问服务.md"
+      },
+      {
+        "name": "5.1-文件传输、电子邮件与远程登录服务.md",
+        "type": "file",
+        "path": "软考中级网络工程/5.1-文件传输、电子邮件与远程登录服务.md"
+      },
+      {
+        "name": "5.2-DHCP协议与互联网新技术.md",
+        "type": "file",
+        "path": "软考中级网络工程/5.2-DHCP协议与互联网新技术.md"
+      },
+      {
+        "name": "6.0-UDP与TCP报文格式.md",
+        "type": "file",
+        "path": "软考中级网络工程/6.0-UDP与TCP报文格式.md"
+      },
+      {
+        "name": "6.1-TCP可靠传输、拥塞控制与端口号.md",
+        "type": "file",
+        "path": "软考中级网络工程/6.1-TCP可靠传输、拥塞控制与端口号.md"
+      },
+      {
+        "name": "7.0-IPv4编址.md",
+        "type": "file",
+        "path": "软考中级网络工程/7.0-IPv4编址.md"
+      },
+      {
+        "name": "7.1-IPv6编址与过渡技术.md",
+        "type": "file",
+        "path": "软考中级网络工程/7.1-IPv6编址与过渡技术.md"
+      },
+      {
+        "name": "7.2-IP报文格式、ICMP与ARP协议.md",
+        "type": "file",
+        "path": "软考中级网络工程/7.2-IP报文格式、ICMP与ARP协议.md"
+      },
+      {
+        "name": "8.0-路由技术概述与静态路由.md",
+        "type": "file",
+        "path": "软考中级网络工程/8.0-路由技术概述与静态路由.md"
+      },
+      {
+        "name": "8.1-路由协议原理、RIP与OSPF协议.md",
+        "type": "file",
+        "path": "软考中级网络工程/8.1-路由协议原理、RIP与OSPF协议.md"
+      },
+      {
+        "name": "8.2-IS-IS、BGP协议与广域网技术.md",
+        "type": "file",
+        "path": "软考中级网络工程/8.2-IS-IS、BGP协议与广域网技术.md"
+      },
+      {
+        "name": "9.0-网络安全基础与加密技术.md",
+        "type": "file",
+        "path": "软考中级网络工程/9.0-网络安全基础与加密技术.md"
+      },
+      {
+        "name": "9.1-网络安全防护系统.md",
+        "type": "file",
+        "path": "软考中级网络工程/9.1-网络安全防护系统.md"
+      },
+      {
+        "name": "9.2-其他安全技术应用与章节总结.md",
+        "type": "file",
+        "path": "软考中级网络工程/9.2-其他安全技术应用与章节总结.md"
+      }
+    ]
+  },
+  {
+    "name": "数据结构",
+    "type": "folder",
+    "children": [
+      {
+        "name": "1.关于数据结构和算法",
+        "type": "folder",
+        "children": [
+          {
+            "name": "1.1-绪论.md",
+            "type": "file",
+            "path": "数据结构/1.关于数据结构和算法/1.1-绪论.md"
+          },
+          {
+            "name": "1.2-复杂度详解.md",
+            "type": "file",
+            "path": "数据结构/1.关于数据结构和算法/1.2-复杂度详解.md"
+          }
+        ]
+      },
+      {
+        "name": "2.线性表",
+        "type": "folder",
+        "children": [
+          {
+            "name": "2.1-概论.md",
+            "type": "file",
+            "path": "数据结构/2.线性表/2.1-概论.md"
+          },
+          {
+            "name": "2.2-顺序表.md",
+            "type": "file",
+            "path": "数据结构/2.线性表/2.2-顺序表.md"
+          },
+          {
+            "name": "2.3-单链表.md",
+            "type": "file",
+            "path": "数据结构/2.线性表/2.3-单链表.md"
+          },
+          {
+            "name": "2.4-双链表、循环链表和静态链表.md",
+            "type": "file",
+            "path": "数据结构/2.线性表/2.4-双链表、循环链表和静态链表.md"
+          }
+        ]
+      },
+      {
+        "name": "3.栈和队列",
+        "type": "folder",
+        "children": [
+          {
+            "name": "3.1-栈.md",
+            "type": "file",
+            "path": "数据结构/3.栈和队列/3.1-栈.md"
+          },
+          {
+            "name": "3.2-队列.md",
+            "type": "file",
+            "path": "数据结构/3.栈和队列/3.2-队列.md"
+          },
+          {
+            "name": "3.3-栈和队列的应用.md",
+            "type": "file",
+            "path": "数据结构/3.栈和队列/3.3-栈和队列的应用.md"
+          },
+          {
+            "name": "3.4-特殊矩阵的压缩存储.md",
+            "type": "file",
+            "path": "数据结构/3.栈和队列/3.4-特殊矩阵的压缩存储.md"
+          }
+        ]
+      },
+      {
+        "name": "4.串",
+        "type": "folder",
+        "children": [
+          {
+            "name": "4.1-串的定义与结构.md",
+            "type": "file",
+            "path": "数据结构/4.串/4.1-串的定义与结构.md"
+          },
+          {
+            "name": "4.2-字符串模式匹配.md",
+            "type": "file",
+            "path": "数据结构/4.串/4.2-字符串模式匹配.md"
+          }
+        ]
+      },
+      {
+        "name": "5.树",
+        "type": "folder",
+        "children": [
+          {
+            "name": "5.1-树的定义与性质.md",
+            "type": "file",
+            "path": "数据结构/5.树/5.1-树的定义与性质.md"
+          },
+          {
+            "name": "5.2-二叉树的定义与性质.md",
+            "type": "file",
+            "path": "数据结构/5.树/5.2-二叉树的定义与性质.md"
+          },
+          {
+            "name": "5.3-存储结构与遍历算法.md",
+            "type": "file",
+            "path": "数据结构/5.树/5.3-存储结构与遍历算法.md"
+          },
+          {
+            "name": "5.3p1-二叉树非递归（迭代）遍历算法.md",
+            "type": "file",
+            "path": "数据结构/5.树/5.3p1-二叉树非递归（迭代）遍历算法.md"
+          },
+          {
+            "name": "5.3p2-遍历序列和递归应用的实例.md",
+            "type": "file",
+            "path": "数据结构/5.树/5.3p2-遍历序列和递归应用的实例.md"
+          },
+          {
+            "name": "5.4-线索二叉树.md",
+            "type": "file",
+            "path": "数据结构/5.树/5.4-线索二叉树.md"
+          },
+          {
+            "name": "5.5-树与森林的表示与遍历.md",
+            "type": "file",
+            "path": "数据结构/5.树/5.5-树与森林的表示与遍历.md"
+          },
+          {
+            "name": "5.6-哈夫曼树.md",
+            "type": "file",
+            "path": "数据结构/5.树/5.6-哈夫曼树.md"
+          },
+          {
+            "name": "5.7-并查集.md",
+            "type": "file",
+            "path": "数据结构/5.树/5.7-并查集.md"
+          }
+        ]
+      },
+      {
+        "name": "6.图",
+        "type": "folder",
+        "children": [
+          {
+            "name": "6.1-图的定义与储存.md",
+            "type": "file",
+            "path": "数据结构/6.图/6.1-图的定义与储存.md"
+          },
+          {
+            "name": "6.2-图的基本操作.md",
+            "type": "file",
+            "path": "数据结构/6.图/6.2-图的基本操作.md"
+          },
+          {
+            "name": "6.3-图的遍历.md",
+            "type": "file",
+            "path": "数据结构/6.图/6.3-图的遍历.md"
+          },
+          {
+            "name": "6.4-最小生成树.md",
+            "type": "file",
+            "path": "数据结构/6.图/6.4-最小生成树.md"
+          },
+          {
+            "name": "6.5-最短路径问题.md",
+            "type": "file",
+            "path": "数据结构/6.图/6.5-最短路径问题.md"
+          },
+          {
+            "name": "6.6-拓扑排序.md",
+            "type": "file",
+            "path": "数据结构/6.图/6.6-拓扑排序.md"
+          },
+          {
+            "name": "6.6-有向无环图描述表达式.md",
+            "type": "file",
+            "path": "数据结构/6.图/6.6-有向无环图描述表达式.md"
+          },
+          {
+            "name": "6.7-关键路径.md",
+            "type": "file",
+            "path": "数据结构/6.图/6.7-关键路径.md"
+          }
+        ]
+      },
+      {
+        "name": "7.查找",
+        "type": "folder",
+        "children": [
+          {
+            "name": "7.1-基本概念.md",
+            "type": "file",
+            "path": "数据结构/7.查找/7.1-基本概念.md"
+          },
+          {
+            "name": "7.2-顺序、折半和分块查找.md",
+            "type": "file",
+            "path": "数据结构/7.查找/7.2-顺序、折半和分块查找.md"
+          },
+          {
+            "name": "7.2p1-查找判定树.md",
+            "type": "file",
+            "path": "数据结构/7.查找/7.2p1-查找判定树.md"
+          },
+          {
+            "name": "7.3-二叉排序树.md",
+            "type": "file",
+            "path": "数据结构/7.查找/7.3-二叉排序树.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "四级网络工程师(题库)",
+    "type": "folder",
+    "children": [
+      {
+        "name": "0.说明.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/0.说明.md"
+      },
+      {
+        "name": "1.操作系统概述.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/1.操作系统概述.md"
+      },
+      {
+        "name": "10.新型网络应用.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/10.新型网络应用.md"
+      },
+      {
+        "name": "11.网络管理与网络安全.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/11.网络管理与网络安全.md"
+      },
+      {
+        "name": "2.进程与线程模型.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/2.进程与线程模型.md"
+      },
+      {
+        "name": "3.储存管理方案和文件系统设计.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/3.储存管理方案和文件系统设计.md"
+      },
+      {
+        "name": "4.IO设备管理.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/4.IO设备管理.md"
+      },
+      {
+        "name": "5.死锁.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/5.死锁.md"
+      },
+      {
+        "name": "6.网络技术基础.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/6.网络技术基础.md"
+      },
+      {
+        "name": "7.局域网技术.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/7.局域网技术.md"
+      },
+      {
+        "name": "8.Internet基础.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/8.Internet基础.md"
+      },
+      {
+        "name": "9.Internet基本服务.md",
+        "type": "file",
+        "path": "四级网络工程师(题库)/9.Internet基本服务.md"
+      }
+    ]
+  },
+  {
+    "name": "线性代数",
+    "type": "folder",
+    "children": [
+      {
+        "name": "0.入门",
+        "type": "folder",
+        "children": [
+          {
+            "name": "0.1-导入.md",
+            "type": "file",
+            "path": "线性代数/0.入门/0.1-导入.md"
+          }
+        ]
+      },
+      {
+        "name": "1.行列式",
+        "type": "folder",
+        "children": [
+          {
+            "name": "1.1-行列式的定义与性质.md",
+            "type": "file",
+            "path": "线性代数/1.行列式/1.1-行列式的定义与性质.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "HCIP-821,831(题库)",
+    "type": "folder",
+    "children": [
+      {
+        "name": "0.说明.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/0.说明.md"
+      },
+      {
+        "name": "821d单选题集.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/821d单选题集.md"
+      },
+      {
+        "name": "821dd多选题集.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/821dd多选题集.md"
+      },
+      {
+        "name": "821l连线题集.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/821l连线题集.md"
+      },
+      {
+        "name": "821t填空题集.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/821t填空题集.md"
+      },
+      {
+        "name": "821y判断题集.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/821y判断题集.md"
+      },
+      {
+        "name": "831母题(AI整理).md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/831母题(AI整理).md"
+      },
+      {
+        "name": "831相似题目整理.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/831相似题目整理.md"
+      },
+      {
+        "name": "831知识点tag分类整理.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/831知识点tag分类整理.md"
+      },
+      {
+        "name": "831d单选题集.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/831d单选题集.md"
+      },
+      {
+        "name": "831dd多选题集.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/831dd多选题集.md"
+      },
+      {
+        "name": "831l连线题集.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/831l连线题集.md"
+      },
+      {
+        "name": "831t填空题集.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/831t填空题集.md"
+      },
+      {
+        "name": "831y判断题集.md",
+        "type": "file",
+        "path": "HCIP-821,831(题库)/831y判断题集.md"
+      }
+    ]
   },
   {
     "name": "README.md",
     "type": "file",
     "path": "README.md"
-  },
-  {
-    "name": "test-auto-discovery.md",
-    "type": "file",
-    "path": "test-auto-discovery.md"
   }
 ]
