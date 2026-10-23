@@ -1,4 +1,4 @@
-name: Build and  Deploy
+name: Build and Deploy
 
 on:
   push:
@@ -28,7 +28,19 @@ jobs:
           node-version: '20'
 
       - name: Build File Tree
-        run: node scripts/build-file-tree.js
+        run: node iris/scripts/build-file-tree.js
+
+      - name: Build Search Index
+        run: node iris/scripts/build-search-index.js
+
+      - name: Build Precache Manifest
+        run: node iris/scripts/build-precache.js
+
+      - name: Build Sitemap
+        run: node iris/scripts/build-sitemap.js
+
+      - name: Build Changelog
+        run: node iris/scripts/build-changelog.js
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
